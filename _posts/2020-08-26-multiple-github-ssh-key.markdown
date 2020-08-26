@@ -9,15 +9,17 @@ categories: SSH GitHub
 
 
 ``` javascript 
-#github
-Host github.com-key1
+#github 账号1
+Host github.com
 HostName github.com
 IdentityFile ~/.ssh/key1
 
-#github2
-Host github.com-key2
+#github-2 账号2
+Host github-2.com
 HostName github.com
 IdentityFile ~/.ssh/key2
 ```
 
 把key1, key2 对应的 key1.pub, key2.pub 公钥分别设置到对应的 GitHub 账号， 这样就可以正常用 Git 拉取不同账号下的仓库了。
+
+账号2拉取项目时需要把"<font color=red>github</font>"改成"<font color=red>github-2</font>": git@<font color=red>github-2</font>.com:{user}/xxx.git
