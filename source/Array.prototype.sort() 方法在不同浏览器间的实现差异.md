@@ -1,10 +1,10 @@
-<!--
- * @Author       : Axon
- * @Date         : 2021-01-05 11:05:12
- * @LastEditors  : Axon
- * @LastEditTime : 2021-01-05 19:33:48
- * @FilePath     : \cixiaotong2c:\Users\lizhencheng\Desktop\Array.prototype.sort().md
--->
+---
+title: Array.prototype.sort() 方法在不同浏览器间的实现差异
+urlname: egs332
+date: '2021-12-23 10:44:19 +0800'
+tags: []
+categories: []
+---
 Array.prototype.sort() 方法用原地算法对数组的元素进行排序，并返回数组。默认排序顺序是在将元素转换为字符串，然后比较它们的UTF-16代码单元值序列时构建的
 
 由于它取决于具体实现，因此无法保证排序的时间和空间复杂性。
