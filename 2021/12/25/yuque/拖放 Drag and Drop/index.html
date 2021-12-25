@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="Core"><title>拖放 Drag and Drop · Hexo</title><meta name="description" content="事件
+On 型事件处理程序
+触发时刻
+
+
+
+drag (en-US)
+ondrag
+当拖拽元素或选中的文本时触发。
+
+
+dragend (en-US)
+ondragend(en-US)
+当拖拽操作结束时触发 (比如松开鼠标按键或敲“Esc”键). (见结束拖拽 (en-US)
+
+
+)
+
+
+
+
+dra"><meta name="keywords" content="极限博客,极限Blog,博客,极限"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><script src="/js/jquery.js"></script><meta name="generator" content="Hexo 5.4.0"></head><body><div class="sidebar animated fadeInDown"><div class="logo-title"><div class="title"><img src="/images/logo@2x.png" style="width:127px;"><h3 title=""><a href="/">Hexo</a></h3><div class="description"><p>心之所愿，无事不成。<br> Nothing is impossible to a willing heart.</p></div></div></div><ul class="social-links"><li><a href="mailto:zhong.sr@163.com"><i class="fa fa-envelope"></i></a></li></ul></div><div class="main"><div class="page-top animated fadeInDown"><div class="nav"><li><a href="/">首页</a></li><li><a href="/archives">归档</a></li><li><a href="/tags">标签</a></li><li><a href="/about">关于</a></li><li><a href="/guestbook">留言</a></li></div><div class="information"><div class="back_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li></div></div></div><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h3><a>拖放 Drag and Drop</a></h3></div><div class="post-content"><table>
+<thead>
+<tr>
+<th>事件</th>
+<th>On 型事件处理程序</th>
+<th>触发时刻</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/drag_event">drag (en-US)</a></td>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalEventHandlers/ondrag">ondrag</a></td>
+<td>当拖拽元素或选中的文本时触发。</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/dragend_event">dragend (en-US)</a></td>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ondragend">ondragend(en-US)</a></td>
+<td>当拖拽操作结束时触发 (比如松开鼠标按键或敲“Esc”键). (见<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations#dragend">结束拖拽 (en-US)</a></td>
+</tr>
+<tr>
+<td>)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/dragenter_event">dragenter (en-US)</a></td>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ondragenter">ondragenter(en-US)</a></td>
+<td>当拖拽元素或选中的文本到一个可释放目标时触发（见 <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations#droptargets">指定释放目标 (en-US)</a></td>
+</tr>
+<tr>
+<td>）。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/Reference/Events/dragexit">dragexit</a></td>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ondragleave">ondragexit(en-US)</a></td>
+<td>当元素变得不再是拖拽操作的选中目标时触发。</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/dragleave_event">dragleave (en-US)</a></td>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalEventHandlers/ondragleave">ondragleave</a></td>
+<td>当拖拽元素或选中的文本离开一个可释放目标时触发。</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/dragover_event">dragover (en-US)</a></td>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ondragover">ondragover(en-US)</a></td>
+<td>当元素或选中的文本被拖到一个可释放目标上时触发（每 100 毫秒触发一次）。</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/dragstart_event">dragstart (en-US)</a></td>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ondragstart">ondragstart(en-US)</a></td>
+<td>当用户开始拖拽一个元素或选中的文本时触发（见<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations#dragstart">开始拖拽操作 (en-US)</a></td>
+</tr>
+<tr>
+<td>）。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/drop_event">drop (en-US)</a></td>
+<td><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalEventHandlers/ondrop">ondrop</a></td>
+<td>当元素或选中的文本在可释放目标上被释放时触发（见<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations#drop">执行释放 (en-US)</a></td>
+</tr>
+<tr>
+<td>）。</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2021-12-25</span><i class="fa fa-tag"></i><span class="leancloud_visitors"></span></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="" onclick="javascript:join_favorite()" ref="sidebar"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=,http://example.com/2021/12/25/yuque/拖放 Drag and Drop/,Hexo,拖放 Drag and Drop,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="pre pagbuttons"><a class="btn" role="navigation" href="/2021/12/25/yuque/Web%20APIs/" title="Web APIs">上一篇</a></li><li class="next pagbuttons"><a class="btn" role="navigation" href="/2021/12/24/yuque/%E5%90%8C%E6%AD%A53/" title="同步3">下一篇</a></li></ul></div><script src="/js/visitors.js"></script><a id="comments"></a><div id="vcomments" style="margin:0 30px;"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="//cdn.jsdelivr.net/gh/xcss/valine@latest/dist/Valine.min.js"></script><script>var valine = new Valine({
+  el:'#vcomments',
+  notify:false || false, 
+  verify:false|| false, 
+  app_id:'',
+  app_key:'',
+  placeholder:'念念不忘，必有回响...',
+  path: window.location.pathname,
+  serverURLs: '',
+  visitor:true,
+  recordIP:true,
+  avatar:'mp'
+})</script></div></div></div></div><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/add-bookmark.js"></script><script src="/js/baidu-tongji.js"></script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":200,"height":400,"hOffset":5,"vOffset":-38},"mobile":{"show":false,"scale":0.2},"react":{"opacity":0.75,"opacityDefault":0.8,"opacityOnHover":0.2},"log":false});</script></body></html>
