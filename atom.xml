@@ -44,6 +44,10 @@
         <title>JavaScript</title>
         <link rel="alternate" href="https://oocii.com/yuque/JavaScript/"/>
         <content type="html"></content>
+        <category term="JavaScript" scheme="https://oocii.com/categories/JavaScript/" />
+        <category term="Javascript" scheme="https://oocii.com/tags/Javascript/" />
+        <category term="JS" scheme="https://oocii.com/tags/JS/" />
+        <category term="ES" scheme="https://oocii.com/tags/ES/" />
         <updated>2022-01-05T03:18:49.000Z</updated>
     </entry>
     <entry>
@@ -144,6 +148,8 @@ Copy to Clipboard&lt;br /&gt;
 &lt;p&gt;/_ Global values _/ display: inherit; display: initial; display: unset;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
+        <category term="CSS" scheme="https://oocii.com/categories/CSS/" />
+        <category term="CSS" scheme="https://oocii.com/tags/CSS/" />
         <updated>2022-01-04T12:15:39.000Z</updated>
     </entry>
     <entry>
@@ -189,6 +195,10 @@ Copy to Clipboard&lt;br /&gt;
  使用 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRNTC9FbGVtZW50L2Rpdg==&#34;&gt;&amp;lt;div&amp;gt;&lt;/span&gt; 上的 display: flow-root ，该容器内的所有内容都参与该容器的块格式上下文，并且浮动不会从元素底部弹出。&lt;br /&gt;
 flow-root 关键字的意义是，创建的内容本质上类似于一个新的根元素（如 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRNTC9FbGVtZW50L2h0bWw=&#34;&gt;&amp;lt;html&amp;gt;&lt;/span&gt; 所做），并确定这个新的上下文如何创建及其流布局如何实现。&lt;/p&gt;
 </content>
+        <category term="CSS" scheme="https://oocii.com/categories/CSS/" />
+        <category term="formatting context" scheme="https://oocii.com/categories/CSS/formatting-context/" />
+        <category term="CSS" scheme="https://oocii.com/tags/CSS/" />
+        <category term="BFC" scheme="https://oocii.com/tags/BFC/" />
         <updated>2021-12-30T07:03:01.000Z</updated>
     </entry>
     <entry>
@@ -524,6 +534,12 @@ Chrome&lt;/p&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSmF2YVNjcmlwdC9SZWZlcmVuY2UvR2xvYmFsX09iamVjdHMvQXJyYXkvc29ydA==&#34;&gt;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/sort&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90YzM5LmVzL2VjbWEyNjIvI3NlYy1hcnJheS5wcm90b3R5cGUuc29ydA==&#34;&gt;https://tc39.es/ecma262/#sec-array.prototype.sort&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="JavaScript" scheme="https://oocii.com/categories/JavaScript/" />
+        <category term="Array" scheme="https://oocii.com/categories/JavaScript/Array/" />
+        <category term="Javascript" scheme="https://oocii.com/tags/Javascript/" />
+        <category term="JS" scheme="https://oocii.com/tags/JS/" />
+        <category term="ES" scheme="https://oocii.com/tags/ES/" />
+        <category term="Array" scheme="https://oocii.com/tags/Array/" />
         <updated>2021-12-23T02:44:51.000Z</updated>
     </entry>
     <entry>
