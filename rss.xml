@@ -32,11 +32,12 @@
             <link>https://oocii.com/yuque/Tags..9/</link>
             <category term="img" scheme="https://oocii.com/tags/img/" />
             <pubDate>Thu, 06 Jan 2022 18:24:25 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90dmE0LnNpbmFpbWcuY24vbGFyZ2UvN2U0ZDYyYzlseThneTZlYmV1ZG5xajIxOWIwdTBtenAuanBn&#34;&gt;
-&lt;/span&gt;&lt;br&gt;&lt;img data-src=&#34;https://tva4.sinaimg.cn/large/7e4d62c9ly8gy6ebeudnqj219b0u0mzp.jpg#crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;id=sbikx&amp;originHeight=1080&amp;originWidth=1631&amp;originalType=binary%E2%88%B6=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;title=&#34;&gt;&lt;/p&gt;
-&lt;p&gt;some description&lt;br&gt;​&lt;/p&gt;
-&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-
+            <description><![CDATA[ &lt;p&gt;&lt;a href=&#34;https://tva4.sinaimg.cn/large/7e4d62c9ly8gy6ebeudnqj219b0u0mzp.jpg&#34;&gt;&lt;br /&gt;
+&lt;/a&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://tva4.sinaimg.cn/large/7e4d62c9ly8gy6ebeudnqj219b0u0mzp.jpg#crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;id=sbikx&amp;amp;originHeight=1080&amp;amp;originWidth=1631&amp;amp;originalType=binary%E2%88%B6=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;status=done&amp;amp;style=none&amp;amp;title=&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;some description&lt;br /&gt;
+​&lt;/p&gt;
+&lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;​&lt;/p&gt;
 &lt;p&gt;more detail&lt;/p&gt;
  ]]></description>
@@ -59,49 +60,127 @@
             <category term="CSS" scheme="https://oocii.com/categories/CSS/" />
             <category term="CSS" scheme="https://oocii.com/tags/CSS/" />
             <pubDate>Tue, 04 Jan 2022 20:15:39 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;display&lt;/strong&gt; 属性可以设置元素的内部和外部显示类型 _display types_。元素的外部显示类型 &lt;em&gt;outer display types&lt;/em&gt; 将决定该元素在流式布局中的表现（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19GbG93X0xheW91dA==&#34;&gt;块级或内联元素&lt;/span&gt;）；元素的内部显示类型 &lt;em&gt;inner display types&lt;/em&gt; 可以控制其子元素的布局（例如：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19GbG93X0xheW91dA==&#34;&gt;flow layout&lt;/span&gt;，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19HcmlkX0xheW91dA==&#34;&gt;grid&lt;/span&gt; 或 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19GbGV4aWJsZV9Cb3hfTGF5b3V0&#34;&gt;flex&lt;/span&gt;）。&lt;br&gt;在 &lt;strong&gt;CSS 规范&lt;/strong&gt;（特指 CSS Level 1/2/3 规范）中查阅 &lt;strong&gt;display&lt;/strong&gt; 属性的所有取值时需要注意：个别取值的详细信息记录在独立的规范中。 例如，display: flex 的详细信息在 &lt;em&gt;CSS Flexible Box Model&lt;/em&gt; 规范中记录。可以在本文档末尾的表格中查看所有有关的规范。&lt;/p&gt;
-&lt;h2 id=&#34;语法&#34;&gt;&lt;a href=&#34;#语法&#34; class=&#34;headerlink&#34; title=&#34;语法&#34;&gt;&lt;/a&gt;语法&lt;/h2&gt;&lt;p&gt;display 属性使用关键字取值来指定，关键字取值被分为六类：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;css&#34;&gt;.container &amp;#123;
-  display: [ &amp;lt;display-outside&amp;gt; | &amp;lt;display-inside&amp;gt; ] | &amp;lt;display-listitem&amp;gt; |
-    &amp;lt;display-internal&amp;gt; | &amp;lt;display-box&amp;gt; | &amp;lt;display-legacy&amp;gt;;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;Outside&#34;&gt;&lt;a href=&#34;#Outside&#34; class=&#34;headerlink&#34; title=&#34;Outside&#34;&gt;&lt;/a&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXkjb3V0c2lkZQ==&#34;&gt;Outside&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/CSS/display-outside&#34;&gt;&lt;display-outside&gt;&lt;/a&gt;&lt;br&gt;这些关键字指定了元素的外部显示类型，实际上就是其在流式布局中的角色（即在流式布局中的表现）。&lt;br&gt;‘page(“/zh-CN/docs/Web/CSS/display-outside”, “Syntax”)’&lt;br&gt;&lt;strong&gt;&lt;display-outside&gt; 的可用值：&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;block&lt;/strong&gt;&lt;br&gt;这个值会生成一个块级元素盒子，同时在该元素之前和之后打断（换行）。简单来说就是，这个值会将该元素变成&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRNTC9CbG9jay1sZXZlbF9lbGVtZW50cw==&#34;&gt;块级元素&lt;/span&gt;。&lt;br&gt;&lt;strong&gt;inline&lt;/strong&gt;&lt;br&gt;这个值会生成一个行内元素盒子，该元素之前和之后不会打断（换行）。如果空间充足，该元素后的元素将会在同一行显示。简单来说就是，这个值会将该元素变成&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRNTC9JbmxpbmVfZWxlbWVudHM=&#34;&gt;行内元素&lt;/span&gt;。&lt;br&gt;**run-in **&lt;br&gt;这个值生成一个 run-in 盒子。如果其后的兄弟元素是块级盒子，那么这个 run-in 盒子就会以兄弟元素的第一个行内元素盒子的形式存在；如果其后的兄弟元素是行内元素，那么这个 run-in 盒子会变成块级元素。&lt;br&gt;run-in 元素的存在形式取决于相邻的元素，如果它的内部存在 block box，那么它会变成块级元素盒子。&lt;/p&gt;
-&lt;h3 id=&#34;Inside&#34;&gt;&lt;a href=&#34;#Inside&#34; class=&#34;headerlink&#34; title=&#34;Inside&#34;&gt;&lt;/a&gt;Inside&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/CSS/display-inside&#34;&gt;&lt;display-inside&gt;(en-US)&lt;/a&gt;&lt;br&gt;这些关键字指定了元素的内部显示类型，它们定义了该元素内部内容的布局方式（假定该元素为非替换元素 non-replaced element）。&lt;br&gt;‘page(“/zh-CN/docs/Web/CSS/display-inside”, “Syntax”)’&lt;br&gt;&lt;strong&gt;&lt;display-inside&gt;的可用值：&lt;/strong&gt;&lt;br&gt;**flow **&lt;br&gt;该元素使用流布局（块和内联布局）来布置其内容。&lt;br&gt;如果它的外部显示类型是 inline 或 run-in，并且它正在参与块或内联格式上下文，那么它会生成一个内联框。否则它会生成一个块容器框。&lt;br&gt;根据其他属性（例如&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL3Bvc2l0aW9u&#34;&gt;position&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL2Zsb2F0&#34;&gt;float&lt;/span&gt;、 或&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL292ZXJmbG93&#34;&gt;overflow&lt;/span&gt;）的值以及它本身是否参与块或内联格式化上下文，它要么为其内容建立新的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvR3VpZGUvQ1NTL0Jsb2NrX2Zvcm1hdHRpbmdfY29udGV4dA==&#34;&gt;块格式化上下文&lt;/span&gt;(BFC)，要么将其内容集成到其父格式化中语境。&lt;br&gt;&lt;strong&gt;flow-root&lt;/strong&gt;&lt;br&gt;该元素生成一个块元素框，它建立一个新的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvR3VpZGUvQ1NTL0Jsb2NrX2Zvcm1hdHRpbmdfY29udGV4dA==&#34;&gt;块格式上下文&lt;/span&gt;，定义格式根所在的位置。&lt;br&gt;&lt;strong&gt;table&lt;/strong&gt;&lt;br&gt;这些元素的行为类似于 HTML&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table&#34;&gt;&lt;table&gt;&lt;/a&gt;元素。它定义了一个块级框。&lt;br&gt;&lt;strong&gt;flex&lt;/strong&gt;&lt;br&gt;该元素的行为类似于块元素，并根据&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL0NTU19GbGV4aWJsZV9Cb3hfTGF5b3V0&#34;&gt;flexbox 模型布置&lt;/span&gt;其内容。&lt;br&gt;&lt;strong&gt;grid&lt;/strong&gt;&lt;br&gt;该元素的行为类似于块元素，并根据&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL0NTU19HcmlkX0xheW91dC9CYXNpY19Db25jZXB0c19vZl9HcmlkX0xheW91dA==&#34;&gt;网格模型&lt;/span&gt;布置其内容。&lt;br&gt;**ruby **&lt;br&gt;该元素的行为类似于内联元素，并根据 ruby 格式模型布置其内容。它的行为类似于相应的 HTML&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby&#34;&gt;&lt;ruby&gt;&lt;/a&gt;元素。&lt;/p&gt;
-&lt;h3 id=&#34;List-Item&#34;&gt;&lt;a href=&#34;#List-Item&#34; class=&#34;headerlink&#34; title=&#34;List Item&#34;&gt;&lt;/a&gt;List Item&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/CSS/display-listitem&#34;&gt;&lt;display-listitem&gt;(en-US)&lt;/a&gt;&lt;br&gt;将这个元素的外部显示类型变为 block 盒，并将内部显示类型变为多个 list-item inline 盒。&lt;br&gt;‘page(“/zh-CN/docs/Web/CSS/display-listitem”, “Syntax”)’&lt;/p&gt;
-&lt;h3 id=&#34;Internal&#34;&gt;&lt;a href=&#34;#Internal&#34; class=&#34;headerlink&#34; title=&#34;Internal&#34;&gt;&lt;/a&gt;Internal&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/CSS/display-internal&#34;&gt;&lt;display-internal&gt;&lt;/a&gt;&lt;br&gt;有些布局模型（如 table 和 ruby）有着复杂的内部结构，因此它们的子元素可能扮演着不同的角色。这一类关键字就是用来定义这些“内部”显示类型，并且只有在这些特定的布局模型中才有意义。&lt;br&gt;Valid &lt;display-internal&gt; values:&lt;br&gt;&lt;strong&gt;table-row-group&lt;/strong&gt;&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody&#34;&gt;&lt;tbody&gt;&lt;/a&gt; HTML elements.&lt;br&gt;&lt;strong&gt;table-header-group&lt;/strong&gt;&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead&#34;&gt;&lt;thead&gt;&lt;/a&gt; HTML elements.&lt;br&gt;&lt;strong&gt;table-footer-group&lt;/strong&gt;&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot&#34;&gt;&lt;tfoot&gt;&lt;/a&gt; HTML elements.&lt;br&gt;&lt;strong&gt;table-row&lt;/strong&gt;&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr&#34;&gt;&lt;tr&gt;&lt;/a&gt; HTML elements.&lt;br&gt;&lt;strong&gt;table-cell&lt;/strong&gt;&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td&#34;&gt;&lt;td&gt;&lt;/a&gt; HTML elements.&lt;br&gt;&lt;strong&gt;table-column-group&lt;/strong&gt;&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup&#34;&gt;&lt;colgroup&gt;&lt;/a&gt; HTML elements.&lt;br&gt;&lt;strong&gt;table-column&lt;/strong&gt;&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col&#34;&gt;&lt;col&gt;&lt;/a&gt; HTML elements.&lt;br&gt;&lt;strong&gt;table-caption&lt;/strong&gt;&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption&#34;&gt;&lt;caption&gt;&lt;/a&gt; HTML elements.&lt;br&gt;**ruby-base **&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rb&#34;&gt;&lt;rb&gt;&lt;/a&gt; HTML elements.&lt;br&gt;**ruby-text **&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt&#34;&gt;&lt;rt&gt;&lt;/a&gt; HTML elements.&lt;br&gt;**ruby-base-container **&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rbc&#34;&gt;&lt;rbc&gt;&lt;/a&gt; HTML elements generated as anonymous boxes.&lt;br&gt;**ruby-text-container **&lt;br&gt;These elements behave like &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rtc&#34;&gt;&lt;rtc&gt;&lt;/a&gt; HTML elements.&lt;/p&gt;
-&lt;h3 id=&#34;Box&#34;&gt;&lt;a href=&#34;#Box&#34; class=&#34;headerlink&#34; title=&#34;Box&#34;&gt;&lt;/a&gt;Box&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/CSS/display-box&#34;&gt;&lt;display-box&gt;&lt;/a&gt;&lt;br&gt;这些值决定元素是否使用盒模型。&lt;br&gt;Valid &lt;display-box&gt; values:&lt;br&gt;&lt;strong&gt;contents&lt;/strong&gt;&lt;br&gt;These elements don’t produce a specific box by themselves. They are replaced by their pseudo-box and their child boxes. Please note that the CSS Display Level 3 spec defines how the contents value should affect “unusual elements” — elements that aren’t rendered purely by CSS box concepts such as replaced elements. See &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kcmFmdHMuY3Nzd2cub3JnL2Nzcy1kaXNwbGF5LyN1bmJveA==&#34;&gt;Appendix B: Effects of display: contents on Unusual Elements&lt;/span&gt; for more details.&lt;br&gt;&lt;em&gt;Due to a bug in browsers this will currently remove the element from the accessibility tree — screen readers will not look at what’s inside. See the &lt;em&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXkjYWNjZXNzaWJpbGl0eV9jb25jZXJucw==&#34;&gt;Accessibility concerns&lt;/span&gt;&lt;/em&gt; section below for more details.&lt;/em&gt;&lt;br&gt;&lt;strong&gt;none&lt;/strong&gt;&lt;br&gt;Turns off the display of an element so that it has no effect on layout (the document is rendered as though the element did not exist). All descendant elements also have their display turned off. To have an element take up the space that it would normally take, but without actually rendering anything, use the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL3Zpc2liaWxpdHk=&#34;&gt;visibility&lt;/span&gt; property instead.&lt;/p&gt;
-&lt;h3 id=&#34;Legacy&#34;&gt;&lt;a href=&#34;#Legacy&#34; class=&#34;headerlink&#34; title=&#34;Legacy&#34;&gt;&lt;/a&gt;Legacy&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/CSS/display-legacy&#34;&gt;&lt;display-legacy&gt;&lt;/a&gt;&lt;br&gt;CSS 2 对于 &lt;strong&gt;display&lt;/strong&gt; 属性使用单关键字语法，对于相同布局模式的 block 级和 inline 级变体需要使用单独的关键字。&lt;br&gt;‘page(“/en-US /docs/Web/CSS/display-legacy”, “Syntax”)’&lt;/p&gt;
-&lt;h3 id=&#34;是否该继续使用-Legacy-取值？&#34;&gt;&lt;a href=&#34;#是否该继续使用-Legacy-取值？&#34; class=&#34;headerlink&#34; title=&#34;是否该继续使用 Legacy 取值？&#34;&gt;&lt;/a&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXkjJUU2JTk4JUFGJUU1JTkwJUE2JUU4JUFGJUE1JUU3JUJCJUE3JUU3JUJCJUFEJUU0JUJEJUJGJUU3JTk0JUE4X2xlZ2FjeV8lRTUlOEYlOTYlRTUlODAlQkMlRUYlQkMlOUY=&#34;&gt;是否该继续使用 Legacy 取值？&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;CSS Level 3 规范详细说明了 display 属性的两类取值——显式地指定了外部和内部显示属性的规范——但是还没有被浏览器广泛支持。&lt;br&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/CSS/display-legacy&#34;&gt;&lt;display-legacy&gt;&lt;/a&gt; 方法允许使用单个关键字达到相同效果，开发者应该在双关键字取值被广泛支持之前采用这个方法。举例来说，你可以这样指定 inline flex 容器：&lt;br&gt;.container { display: inline-flex; }&lt;br&gt;Copy to Clipboard&lt;br&gt;也可以用两个关键字来指定。&lt;br&gt;Copy to Clipboard&lt;br&gt;.container { display: inline flex; }&lt;br&gt;有关规范变更的更多信息，查阅文章 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL2Rpc3BsYXkvdHdvLXZhbHVlX3N5bnRheF9vZl9kaXNwbGF5&#34;&gt;Adapting to the new two-value syntax of display (en-US)&lt;/span&gt;。&lt;/p&gt;
-&lt;h3 id=&#34;全局设置&#34;&gt;&lt;a href=&#34;#全局设置&#34; class=&#34;headerlink&#34; title=&#34;全局设置&#34;&gt;&lt;/a&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXkjJUU1JTg1JUE4JUU1JUIxJTgwJUU4JUFFJUJFJUU3JUJEJUFF&#34;&gt;全局设置&lt;/span&gt;&lt;/h3&gt;&lt;blockquote&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;display&lt;/strong&gt; 属性可以设置元素的内部和外部显示类型 &lt;em&gt;display types&lt;/em&gt;。元素的外部显示类型 &lt;em&gt;outer display types&lt;/em&gt; 将决定该元素在流式布局中的表现（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19GbG93X0xheW91dA==&#34;&gt;块级或内联元素&lt;/span&gt;）；元素的内部显示类型 &lt;em&gt;inner display types&lt;/em&gt; 可以控制其子元素的布局（例如：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19GbG93X0xheW91dA==&#34;&gt;flow layout&lt;/span&gt;，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19HcmlkX0xheW91dA==&#34;&gt;grid&lt;/span&gt; 或 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19GbGV4aWJsZV9Cb3hfTGF5b3V0&#34;&gt;flex&lt;/span&gt;）。&lt;br /&gt;
+在 &lt;strong&gt;CSS 规范&lt;/strong&gt;（特指 CSS Level 1/2/3 规范）中查阅 &lt;strong&gt;display&lt;/strong&gt; 属性的所有取值时需要注意：个别取值的详细信息记录在独立的规范中。 例如，display: flex 的详细信息在 &lt;em&gt;CSS Flexible Box Model&lt;/em&gt; 规范中记录。可以在本文档末尾的表格中查看所有有关的规范。&lt;/p&gt;
+&lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
+&lt;p&gt;display 属性使用关键字取值来指定，关键字取值被分为六类：&lt;/p&gt;
+&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.container&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; [ &amp;lt;display-outside&gt; | &amp;lt;display-inside&gt; ] | &amp;lt;display-listitem&gt; |&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &amp;lt;display-internal&gt; | &amp;lt;display-box&gt; | &amp;lt;display-legacy&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;outside&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#outside&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXkjb3V0c2lkZQ==&#34;&gt;Outside&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXktb3V0c2lkZQ==&#34;&gt;&amp;lt;display-outside&amp;gt;&lt;/span&gt;&lt;br /&gt;
+ 这些关键字指定了元素的外部显示类型，实际上就是其在流式布局中的角色（即在流式布局中的表现）。&lt;br /&gt;
+&#39;page(&amp;quot;/zh-CN/docs/Web/CSS/display-outside&amp;quot;, &amp;quot;Syntax&amp;quot;)&#39;&lt;br /&gt;
+&lt;strong&gt;&amp;lt;display-outside&amp;gt; 的可用值：&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;block&lt;/strong&gt;&lt;br /&gt;
+ 这个值会生成一个块级元素盒子，同时在该元素之前和之后打断（换行）。简单来说就是，这个值会将该元素变成&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRNTC9CbG9jay1sZXZlbF9lbGVtZW50cw==&#34;&gt;块级元素&lt;/span&gt;。&lt;br /&gt;
+&lt;strong&gt;inline&lt;/strong&gt;&lt;br /&gt;
+ 这个值会生成一个行内元素盒子，该元素之前和之后不会打断（换行）。如果空间充足，该元素后的元素将会在同一行显示。简单来说就是，这个值会将该元素变成&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRNTC9JbmxpbmVfZWxlbWVudHM=&#34;&gt;行内元素&lt;/span&gt;。&lt;br /&gt;
+**run-in **&lt;br /&gt;
+ 这个值生成一个 run-in 盒子。如果其后的兄弟元素是块级盒子，那么这个 run-in 盒子就会以兄弟元素的第一个行内元素盒子的形式存在；如果其后的兄弟元素是行内元素，那么这个 run-in 盒子会变成块级元素。&lt;br /&gt;
+run-in 元素的存在形式取决于相邻的元素，如果它的内部存在 block box，那么它会变成块级元素盒子。&lt;/p&gt;
+&lt;h3 id=&#34;inside&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#inside&#34;&gt;#&lt;/a&gt; Inside&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL2Rpc3BsYXktaW5zaWRl&#34;&gt;&amp;lt;display-inside&amp;gt;(en-US)&lt;/span&gt;&lt;br /&gt;
+ 这些关键字指定了元素的内部显示类型，它们定义了该元素内部内容的布局方式（假定该元素为非替换元素 non-replaced element）。&lt;br /&gt;
+&#39;page(&amp;quot;/zh-CN/docs/Web/CSS/display-inside&amp;quot;, &amp;quot;Syntax&amp;quot;)&#39;&lt;br /&gt;
+&lt;strong&gt;&amp;lt;display-inside&amp;gt; 的可用值：&lt;/strong&gt;&lt;br /&gt;
+**flow **&lt;br /&gt;
+ 该元素使用流布局（块和内联布局）来布置其内容。&lt;br /&gt;
+如果它的外部显示类型是 inline 或 run-in，并且它正在参与块或内联格式上下文，那么它会生成一个内联框。否则它会生成一个块容器框。&lt;br /&gt;
+根据其他属性（例如&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL3Bvc2l0aW9u&#34;&gt; position&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL2Zsb2F0&#34;&gt;float&lt;/span&gt;、 或&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL292ZXJmbG93&#34;&gt; overflow&lt;/span&gt;）的值以及它本身是否参与块或内联格式化上下文，它要么为其内容建立新的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvR3VpZGUvQ1NTL0Jsb2NrX2Zvcm1hdHRpbmdfY29udGV4dA==&#34;&gt;块格式化上下文&lt;/span&gt; (BFC)，要么将其内容集成到其父格式化中语境。&lt;br /&gt;
+&lt;strong&gt;flow-root&lt;/strong&gt;&lt;br /&gt;
+ 该元素生成一个块元素框，它建立一个新的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvR3VpZGUvQ1NTL0Jsb2NrX2Zvcm1hdHRpbmdfY29udGV4dA==&#34;&gt;块格式上下文&lt;/span&gt;，定义格式根所在的位置。&lt;br /&gt;
+&lt;strong&gt;table&lt;/strong&gt;&lt;br /&gt;
+ 这些元素的行为类似于 HTML&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3RhYmxl&#34;&gt;&amp;lt;table&amp;gt;&lt;/span&gt; 元素。它定义了一个块级框。&lt;br /&gt;
+&lt;strong&gt;flex&lt;/strong&gt;&lt;br /&gt;
+ 该元素的行为类似于块元素，并根据&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL0NTU19GbGV4aWJsZV9Cb3hfTGF5b3V0&#34;&gt; flexbox 模型布置&lt;/span&gt;其内容。&lt;br /&gt;
+&lt;strong&gt;grid&lt;/strong&gt;&lt;br /&gt;
+ 该元素的行为类似于块元素，并根据&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL0NTU19HcmlkX0xheW91dC9CYXNpY19Db25jZXB0c19vZl9HcmlkX0xheW91dA==&#34;&gt;网格模型&lt;/span&gt;布置其内容。&lt;br /&gt;
+**ruby **&lt;br /&gt;
+ 该元素的行为类似于内联元素，并根据 ruby 格式模型布置其内容。它的行为类似于相应的 HTML&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3J1Ynk=&#34;&gt;&amp;lt;ruby&amp;gt;&lt;/span&gt; 元素。&lt;/p&gt;
+&lt;h3 id=&#34;list-item&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#list-item&#34;&gt;#&lt;/a&gt; List Item&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL2Rpc3BsYXktbGlzdGl0ZW0=&#34;&gt;&amp;lt;display-listitem&amp;gt;(en-US)&lt;/span&gt;&lt;br /&gt;
+ 将这个元素的外部显示类型变为 block 盒，并将内部显示类型变为多个 list-item inline 盒。&lt;br /&gt;
+&#39;page(&amp;quot;/zh-CN/docs/Web/CSS/display-listitem&amp;quot;, &amp;quot;Syntax&amp;quot;)&#39;&lt;/p&gt;
+&lt;h3 id=&#34;internal&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#internal&#34;&gt;#&lt;/a&gt; Internal&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXktaW50ZXJuYWw=&#34;&gt;&amp;lt;display-internal&amp;gt;&lt;/span&gt;&lt;br /&gt;
+ 有些布局模型（如 table 和 ruby）有着复杂的内部结构，因此它们的子元素可能扮演着不同的角色。这一类关键字就是用来定义这些 “内部” 显示类型，并且只有在这些特定的布局模型中才有意义。&lt;br /&gt;
+Valid &amp;lt;display-internal&amp;gt; values:&lt;br /&gt;
+&lt;strong&gt;table-row-group&lt;/strong&gt;&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3Rib2R5&#34;&gt;&amp;lt;tbody&amp;gt;&lt;/span&gt; HTML elements.&lt;br /&gt;
+&lt;strong&gt;table-header-group&lt;/strong&gt;&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3RoZWFk&#34;&gt;&amp;lt;thead&amp;gt;&lt;/span&gt; HTML elements.&lt;br /&gt;
+&lt;strong&gt;table-footer-group&lt;/strong&gt;&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3Rmb290&#34;&gt;&amp;lt;tfoot&amp;gt;&lt;/span&gt; HTML elements.&lt;br /&gt;
+&lt;strong&gt;table-row&lt;/strong&gt;&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3Ry&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt; HTML elements.&lt;br /&gt;
+&lt;strong&gt;table-cell&lt;/strong&gt;&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3Rk&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt; HTML elements.&lt;br /&gt;
+&lt;strong&gt;table-column-group&lt;/strong&gt;&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L2NvbGdyb3Vw&#34;&gt;&amp;lt;colgroup&amp;gt;&lt;/span&gt; HTML elements.&lt;br /&gt;
+&lt;strong&gt;table-column&lt;/strong&gt;&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L2NvbA==&#34;&gt;&amp;lt;col&amp;gt;&lt;/span&gt; HTML elements.&lt;br /&gt;
+&lt;strong&gt;table-caption&lt;/strong&gt;&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L2NhcHRpb24=&#34;&gt;&amp;lt;caption&amp;gt;&lt;/span&gt; HTML elements.&lt;br /&gt;
+**ruby-base **&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3Ji&#34;&gt;&amp;lt;rb&amp;gt;&lt;/span&gt; HTML elements.&lt;br /&gt;
+**ruby-text **&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3J0&#34;&gt;&amp;lt;rt&amp;gt;&lt;/span&gt; HTML elements.&lt;br /&gt;
+**ruby-base-container **&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3JiYw==&#34;&gt;&amp;lt;rbc&amp;gt;&lt;/span&gt; HTML elements generated as anonymous boxes.&lt;br /&gt;
+**ruby-text-container **&lt;br /&gt;
+These elements behave like &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRNTC9FbGVtZW50L3J0Yw==&#34;&gt;&amp;lt;rtc&amp;gt;&lt;/span&gt; HTML elements.&lt;/p&gt;
+&lt;h3 id=&#34;box&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#box&#34;&gt;#&lt;/a&gt; Box&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXktYm94&#34;&gt;&amp;lt;display-box&amp;gt;&lt;/span&gt;&lt;br /&gt;
+ 这些值决定元素是否使用盒模型。&lt;br /&gt;
+Valid &amp;lt;display-box&amp;gt; values:&lt;br /&gt;
+&lt;strong&gt;contents&lt;/strong&gt;&lt;br /&gt;
+These elements don&#39;t produce a specific box by themselves. They are replaced by their pseudo-box and their child boxes. Please note that the CSS Display Level 3 spec defines how the contents value should affect &amp;quot;unusual elements&amp;quot; — elements that aren’t rendered purely by CSS box concepts such as replaced elements. See &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kcmFmdHMuY3Nzd2cub3JnL2Nzcy1kaXNwbGF5LyN1bmJveA==&#34;&gt;Appendix B: Effects of display: contents on Unusual Elements&lt;/span&gt; for more details.&lt;br /&gt;
+&lt;em&gt;Due to a bug in browsers this will currently remove the element from the accessibility tree — screen readers will not look at what&#39;s inside. See the &lt;em&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXkjYWNjZXNzaWJpbGl0eV9jb25jZXJucw==&#34;&gt;Accessibility concerns&lt;/span&gt;&lt;/em&gt; section below for more details.&lt;/em&gt;&lt;br /&gt;
+&lt;strong&gt;none&lt;/strong&gt;&lt;br /&gt;
+Turns off the display of an element so that it has no effect on layout (the document is rendered as though the element did not exist). All descendant elements also have their display turned off. To have an element take up the space that it would normally take, but without actually rendering anything, use the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL3Zpc2liaWxpdHk=&#34;&gt;visibility&lt;/span&gt; property instead.&lt;/p&gt;
+&lt;h3 id=&#34;legacy&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#legacy&#34;&gt;#&lt;/a&gt; Legacy&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXktbGVnYWN5&#34;&gt;&amp;lt;display-legacy&amp;gt;&lt;/span&gt;&lt;br /&gt;
+CSS 2 对于 &lt;strong&gt;display&lt;/strong&gt; 属性使用单关键字语法，对于相同布局模式的 block 级和 inline 级变体需要使用单独的关键字。&lt;br /&gt;
+&#39;page(&amp;quot;/en-US /docs/Web/CSS/display-legacy&amp;quot;, &amp;quot;Syntax&amp;quot;)&#39;&lt;/p&gt;
+&lt;h3 id=&#34;是否该继续使用-legacy-取值&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#是否该继续使用-legacy-取值&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXkjJUU2JTk4JUFGJUU1JTkwJUE2JUU4JUFGJUE1JUU3JUJCJUE3JUU3JUJCJUFEJUU0JUJEJUJGJUU3JTk0JUE4X2xlZ2FjeV8lRTUlOEYlOTYlRTUlODAlQkMlRUYlQkMlOUY=&#34;&gt;是否该继续使用 Legacy 取值？&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;CSS Level 3 规范详细说明了 display 属性的两类取值 —— 显式地指定了外部和内部显示属性的规范 —— 但是还没有被浏览器广泛支持。&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXktbGVnYWN5&#34;&gt;&amp;lt;display-legacy&amp;gt;&lt;/span&gt; 方法允许使用单个关键字达到相同效果，开发者应该在双关键字取值被广泛支持之前采用这个方法。举例来说，你可以这样指定 inline flex 容器：&lt;br /&gt;
+.container { display: inline-flex; }&lt;br /&gt;
+Copy to Clipboard&lt;br /&gt;
+ 也可以用两个关键字来指定。&lt;br /&gt;
+Copy to Clipboard&lt;br /&gt;
+.container { display: inline flex; }&lt;br /&gt;
+ 有关规范变更的更多信息，查阅文章 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL2Rpc3BsYXkvdHdvLXZhbHVlX3N5bnRheF9vZl9kaXNwbGF5&#34;&gt;Adapting to the new two-value syntax of display (en-US)&lt;/span&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;全局设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#全局设置&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXkjJUU1JTg1JUE4JUU1JUIxJTgwJUU4JUFFJUJFJUU3JUJEJUFF&#34;&gt;全局设置&lt;/span&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
 &lt;p&gt;/_ Global values _/ display: inherit; display: initial; display: unset;&lt;/p&gt;
 &lt;/blockquote&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://oocii.com/manual/%E5%9D%97%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%B8%8A%E4%B8%8B%E6%96%87%20Block%20formatting%20context(BFC)/</guid>
+            <guid isPermalink="true">https://oocii.com/default/%E5%9D%97%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%B8%8A%E4%B8%8B%E6%96%87%20Block%20formatting%20context(BFC)/</guid>
             <title>块格式化上下文 Block formatting context(BFC)</title>
-            <link>https://oocii.com/manual/%E5%9D%97%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%B8%8A%E4%B8%8B%E6%96%87%20Block%20formatting%20context(BFC)/</link>
+            <link>https://oocii.com/default/%E5%9D%97%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%B8%8A%E4%B8%8B%E6%96%87%20Block%20formatting%20context(BFC)/</link>
             <category term="CSS" scheme="https://oocii.com/categories/CSS/" />
             <category term="formatting context" scheme="https://oocii.com/categories/CSS/formatting-context/" />
             <category term="CSS" scheme="https://oocii.com/tags/CSS/" />
             <category term="BFC" scheme="https://oocii.com/tags/BFC/" />
             <pubDate>Thu, 30 Dec 2021 15:03:01 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;block formatting contexts&lt;/strong&gt; 是 &lt;strong&gt;formatting contexts&lt;/strong&gt; 格式化上下文的概念之一，&lt;strong&gt;formatting contexts&lt;/strong&gt; 其中有几种类型，包括块格式化上下文 block formatting contexts、内联格式化上下文 inline formatting contexts 和灵活格式化上下文 flex formatting contexts。&lt;br&gt;​&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;块格式化上下文（Block formatting context，BFC）&lt;/strong&gt; 是 Web 页面的可视 CSS 渲染的一部分，是块盒子的布局过程发生的区域，也是浮动元素与其他元素交互的区域。&lt;br&gt;​&lt;/p&gt;
-&lt;p&gt;文档最外层元素使用块布局规则或称为&lt;strong&gt;初始块格式上下文&lt;/strong&gt;。这意味着&lt;html&gt;元素块中的每个元素都是按照正常流程遵循块和内联布局规则进行布局的。参与 BFC 的元素使用 CSS 框模型概述的规则，该模型定义了元素的边距、边框和填充如何与同一上下文中的其他块交互。&lt;/p&gt;
-&lt;h3 id=&#34;创建新的块格式上下文&#34;&gt;&lt;a href=&#34;#创建新的块格式上下文&#34; class=&#34;headerlink&#34; title=&#34;创建新的块格式上下文&#34;&gt;&lt;/a&gt;创建新的块格式上下文&lt;/h3&gt;&lt;html&gt; 元素不是唯一能够创建块格式上下文的元素。默认为块布局的任何元素也会为其后代元素创建块格式上下文。此外，还有一些CSS属性可以使元素创建一个BFC，即使默认情况下它不这样做。
-以下方式会创建**块格式化上下文**：
-
+            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;block formatting contexts&lt;/strong&gt; 是 &lt;strong&gt;formatting contexts&lt;/strong&gt; 格式化上下文的概念之一，&lt;strong&gt;formatting contexts&lt;/strong&gt; 其中有几种类型，包括块格式化上下文 block formatting contexts、内联格式化上下文 inline formatting contexts 和灵活格式化上下文 flex formatting contexts。&lt;br /&gt;
+​&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;块格式化上下文（Block formatting context，BFC）&lt;/strong&gt; 是 Web 页面的可视 CSS 渲染的一部分，是块盒子的布局过程发生的区域，也是浮动元素与其他元素交互的区域。&lt;br /&gt;
+​&lt;/p&gt;
+&lt;p&gt;文档最外层元素使用块布局规则或称为&lt;strong&gt;初始块格式上下文&lt;/strong&gt;。这意味着 &amp;lt;html&amp;gt; 元素块中的每个元素都是按照正常流程遵循块和内联布局规则进行布局的。参与 BFC 的元素使用 CSS 框模型概述的规则，该模型定义了元素的边距、边框和填充如何与同一上下文中的其他块交互。&lt;/p&gt;
+&lt;h3 id=&#34;创建新的块格式上下文&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建新的块格式上下文&#34;&gt;#&lt;/a&gt; 创建新的块格式上下文&lt;/h3&gt;
+&lt;p&gt;&amp;lt;html&amp;gt; 元素不是唯一能够创建块格式上下文的元素。默认为块布局的任何元素也会为其后代元素创建块格式上下文。此外，还有一些 CSS 属性可以使元素创建一个 BFC，即使默认情况下它不这样做。&lt;br /&gt;
+以下方式会创建&lt;strong&gt;块格式化上下文&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;根元素（&lt;html&gt;）&lt;/li&gt;
+&lt;li&gt;根元素（&amp;lt;html&amp;gt;）&lt;/li&gt;
 &lt;li&gt;浮动元素（元素的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Zsb2F0&#34;&gt;float&lt;/span&gt; 不是 none）&lt;/li&gt;
 &lt;li&gt;绝对定位元素（元素的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL3Bvc2l0aW9u&#34;&gt;position&lt;/span&gt; 为 absolute 或 fixed）&lt;/li&gt;
 &lt;li&gt;行内块元素（元素的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXk=&#34;&gt;display&lt;/span&gt; 为 inline-block）&lt;/li&gt;
 &lt;li&gt;表格单元格（元素的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXk=&#34;&gt;display&lt;/span&gt; 为 table-cell，HTML 表格单元格默认为该值）&lt;/li&gt;
 &lt;li&gt;表格标题（元素的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXk=&#34;&gt;display&lt;/span&gt; 为 table-caption，HTML 表格标题默认为该值）&lt;/li&gt;
 &lt;li&gt;匿名表格单元格元素（元素的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXk=&#34;&gt;display&lt;/span&gt; 为 table、table-row、 table-row-group、table-header-group、table-footer-group（分别是 HTML table、row、tbody、thead、tfoot 的默认属性）或 inline-table）&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL292ZXJmbG93&#34;&gt;overflow&lt;/span&gt; 计算值(Computed)不为 visible 的块元素&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL292ZXJmbG93&#34;&gt;overflow&lt;/span&gt; 计算值 (Computed) 不为 visible 的块元素&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXk=&#34;&gt;display&lt;/span&gt; 值为 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kcmFmdHMuY3Nzd2cub3JnL2Nzcy1kaXNwbGF5LyN2YWxkZWYtZGlzcGxheS1mbG93LXJvb3Q=&#34;&gt;flow-root&lt;/span&gt; 的元素&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2NvbnRhaW4=&#34;&gt;contain&lt;/span&gt; 值为 layout、content 或 paint 的元素&lt;/li&gt;
 &lt;li&gt;弹性元素（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2Rpc3BsYXk=&#34;&gt;display&lt;/span&gt; 为 flex 或 inline-flex 元素的直接子元素）&lt;/li&gt;
@@ -109,8 +188,20 @@
 &lt;li&gt;多列容器（元素的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL2NvbHVtbi1jb3VudA==&#34;&gt;column-count&lt;/span&gt; 或 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL2NvbHVtbi13aWR0aA==&#34;&gt;column-width(en-US)&lt;/span&gt; 不为 auto，包括 column-count 为 1）&lt;/li&gt;
 &lt;li&gt;column-span 为 all 的元素始终会创建一个新的 BFC，即使该元素没有包裹在一个多列容器中（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3czYy9jc3N3Zy1kcmFmdHMvY29tbWl0L2E4NjM0Yjk2OTAwMjc5OTE2YmQ2YzUwNWZkYTg4ZGRhNzFkOGVjNTE=&#34;&gt;标准变更&lt;/span&gt;，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9idWdzLmNocm9taXVtLm9yZy9wL2Nocm9taXVtL2lzc3Vlcy9kZXRhaWw/aWQ9NzA5MzYy&#34;&gt;Chrome bug&lt;/span&gt;）。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;BFC-创建例子&#34;&gt;&lt;a href=&#34;#BFC-创建例子&#34; class=&#34;headerlink&#34; title=&#34;BFC 创建例子&#34;&gt;&lt;/a&gt;BFC 创建例子&lt;/h3&gt;&lt;p&gt;让我们看看几个例子，来理解创建 BFC 的效果。&lt;br&gt;在下面的示例中，我们在应用了边框的 &lt;div&gt; 中有一个浮动元素。该 div 的内容与浮动元素一起浮动。由于 float 的内容比它旁边的内容高，所以现在 DIV 的边框贯穿了 float。如流入和流出元素指南&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL0NTU19GbG93X0xheW91dC9Jbl9GbG93X2FuZF9PdXRfb2ZfRmxvdw==&#34;&gt;guide to in-flow and out of flow elements&lt;/span&gt;中所述，浮动已脱离文档流，因此 DIV 的背景和边框仅包含内容，而不包含浮动。&lt;br&gt;&lt;img data-src=&#34;/images/manual/Block-formatting-context(BFC)-image.png&#34; alt=&#34;image.png&#34;&gt;&lt;br&gt;创建一个新的 BFC 将包含该浮动。在过去，一种典型的方法是设置 overflow: auto 或设置其他不是 overflow: visible 的值。&lt;br&gt;&lt;img data-src=&#34;/images/manual/Block-formatting-context(BFC)-image1.png&#34; alt=&#34;image.png&#34;&gt;&lt;br&gt;设置 overflow: auto 会自动创建包含浮动的新 BFC。现在，我们的 DIV 在布局中变成了一个迷你布局。任何子元素都将包含在其中。&lt;br&gt;使用 overflow 创建新的 BFC 的问题在于， overflow 属性用于告诉浏览器您希望如何处理溢出的内容。在某些情况下，当您纯粹使用此属性创建 BFC 时，您会发现不需要的滚动条或剪切阴影。另外，对于未来的开发人员来说，它可能不太可读，因为不能显式地表明为什么要使用溢出来实现这一目的。如果您使用了这个方法，最好对代码进行注释以便他人理解。&lt;br&gt;​&lt;/p&gt;
-&lt;h3 id=&#34;使用-display-flow-root-显式创建-BFC&#34;&gt;&lt;a href=&#34;#使用-display-flow-root-显式创建-BFC&#34; class=&#34;headerlink&#34; title=&#34;使用 display:flow-root 显式创建 BFC&#34;&gt;&lt;/a&gt;使用 display:flow-root 显式创建 BFC&lt;/h3&gt;&lt;p&gt;使用 display: flow-root （或 display: flow-root list-item）将创建一个新的 BFC，而不会产生任何其他潜在的问题副作用。&lt;br&gt;&lt;img data-src=&#34;/images/manual/Block-formatting-context(BFC)-image2.png&#34; alt=&#34;image.png&#34;&gt;&lt;br&gt;使用 &lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/div&#34;&gt;&lt;div&gt;&lt;/a&gt;上的 display: flow-root ，该容器内的所有内容都参与该容器的块格式上下文，并且浮动不会从元素底部弹出。&lt;br&gt;flow-root 关键字的意义是，创建的内容本质上类似于一个新的根元素（如 &lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/html&#34;&gt;&lt;html&gt;&lt;/a&gt;所做），并确定这个新的上下文如何创建及其流布局如何实现。&lt;/p&gt;
+&lt;h3 id=&#34;bfc-创建例子&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#bfc-创建例子&#34;&gt;#&lt;/a&gt; BFC 创建例子&lt;/h3&gt;
+&lt;p&gt;让我们看看几个例子，来理解创建 BFC 的效果。&lt;br /&gt;
+在下面的示例中，我们在应用了边框的 &amp;lt;div&amp;gt; 中有一个浮动元素。该 div 的内容与浮动元素一起浮动。由于 float 的内容比它旁边的内容高，所以现在 DIV 的边框贯穿了 float。如流入和流出元素指南&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQ1NTL0NTU19GbG93X0xheW91dC9Jbl9GbG93X2FuZF9PdXRfb2ZfRmxvdw==&#34;&gt; guide to in-flow and out of flow elements&lt;/span&gt; 中所述，浮动已脱离文档流，因此 DIV 的背景和边框仅包含内容，而不包含浮动。&lt;br /&gt;
+&lt;img data-src=&#34;/images/default/Block-formatting-context(BFC)-image.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
+ 创建一个新的 BFC 将包含该浮动。在过去，一种典型的方法是设置 overflow: auto 或设置其他不是 overflow: visible 的值。&lt;br /&gt;
+&lt;img data-src=&#34;/images/default/Block-formatting-context(BFC)-image1.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
+ 设置 overflow: auto 会自动创建包含浮动的新 BFC。现在，我们的 DIV 在布局中变成了一个迷你布局。任何子元素都将包含在其中。&lt;br /&gt;
+使用 overflow 创建新的 BFC 的问题在于， overflow 属性用于告诉浏览器您希望如何处理溢出的内容。在某些情况下，当您纯粹使用此属性创建 BFC 时，您会发现不需要的滚动条或剪切阴影。另外，对于未来的开发人员来说，它可能不太可读，因为不能显式地表明为什么要使用溢出来实现这一目的。如果您使用了这个方法，最好对代码进行注释以便他人理解。&lt;br /&gt;
+​&lt;/p&gt;
+&lt;h3 id=&#34;使用-displayflow-root-显式创建-bfc&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-displayflow-root-显式创建-bfc&#34;&gt;#&lt;/a&gt; 使用 display:flow-root 显式创建 BFC&lt;/h3&gt;
+&lt;p&gt;使用 display: flow-root （或 display: flow-root list-item）将创建一个新的 BFC，而不会产生任何其他潜在的问题副作用。&lt;br /&gt;
+&lt;img data-src=&#34;/images/default/Block-formatting-context(BFC)-image2.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
+ 使用 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRNTC9FbGVtZW50L2Rpdg==&#34;&gt;&amp;lt;div&amp;gt;&lt;/span&gt; 上的 display: flow-root ，该容器内的所有内容都参与该容器的块格式上下文，并且浮动不会从元素底部弹出。&lt;br /&gt;
+flow-root 关键字的意义是，创建的内容本质上类似于一个新的根元素（如 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRNTC9FbGVtZW50L2h0bWw=&#34;&gt;&amp;lt;html&amp;gt;&lt;/span&gt; 所做），并确定这个新的上下文如何创建及其流布局如何实现。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -118,8 +209,9 @@
             <title>DOM</title>
             <link>https://oocii.com/yuque/DOM/</link>
             <pubDate>Sat, 25 Dec 2021 18:04:40 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;文档对象模型 (&lt;em&gt;DOM)&lt;/em&gt;&lt;/strong&gt; 将 web 页面与到脚本或编程语言连接起来。通常是指 JavaScript，但将 HTML、SVG 或 XML 文档建模为对象并不是 JavaScript 语言的一部分。DOM 模型用一个逻辑树来表示一个文档，树的每个分支的终点都是一个节点(node)，每个节点都包含着对象(objects)。DOM 的方法(methods)让你可以用特定方式操作这个树，用这些方法你可以改变文档的结构、样式或者内容。节点可以关联上事件处理器，一旦某一事件被触发了，那些事件处理器就会被执行。&lt;/p&gt;
-&lt;h2 id=&#34;DOM-接口&#34;&gt;&lt;a href=&#34;#DOM-接口&#34; class=&#34;headerlink&#34; title=&#34;DOM 接口&#34;&gt;&lt;/a&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQVBJL0RvY3VtZW50X09iamVjdF9Nb2RlbCNkb21fJUU2JThFJUE1JUU1JThGJUEz&#34;&gt;DOM 接口&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;文档对象模型 (&lt;em&gt;DOM)&lt;/em&gt;&lt;/strong&gt; 将 web 页面与到脚本或编程语言连接起来。通常是指 JavaScript，但将 HTML、SVG 或 XML 文档建模为对象并不是 JavaScript 语言的一部分。DOM 模型用一个逻辑树来表示一个文档，树的每个分支的终点都是一个节点 (node)，每个节点都包含着对象 (objects)。DOM 的方法 (methods) 让你可以用特定方式操作这个树，用这些方法你可以改变文档的结构、样式或者内容。节点可以关联上事件处理器，一旦某一事件被触发了，那些事件处理器就会被执行。&lt;/p&gt;
+&lt;h2 id=&#34;dom-接口&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dom-接口&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQVBJL0RvY3VtZW50X09iamVjdF9Nb2RlbCNkb21fJUU2JThFJUE1JUU1JThGJUEz&#34;&gt;DOM 接口&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQVBJL0F0dHI=&#34;&gt;Attr&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQVBJL0NoYXJhY3RlckRhdGE=&#34;&gt;CharacterData&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;ChildNode&lt;/li&gt;
@@ -165,7 +257,8 @@
             <title>Web APIs</title>
             <link>https://oocii.com/yuque/Web%20APIs/</link>
             <pubDate>Sat, 25 Dec 2021 18:00:56 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQVBJ&#34;&gt;https://developer.mozilla.org/zh-CN/docs/Web/API&lt;/span&gt;&lt;br&gt;​&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQVBJ&#34;&gt;https://developer.mozilla.org/zh-CN/docs/Web/API&lt;/span&gt;&lt;br /&gt;
+​&lt;/p&gt;
 &lt;p&gt;B&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQVBJL0JhY2tncm91bmRfRmV0Y2hfQVBJ&#34;&gt;Background Fetch API (en-US)&lt;/span&gt;&lt;/li&gt;
@@ -330,7 +423,8 @@
 &lt;th&gt;触发时刻&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQVBJL0RvY3VtZW50L2RyYWdfZXZlbnQ=&#34;&gt;drag (en-US)&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQVBJL0dsb2JhbEV2ZW50SGFuZGxlcnMvb25kcmFn&#34;&gt;ondrag&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;当拖拽元素或选中的文本时触发。&lt;/td&gt;
@@ -338,12 +432,10 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQVBJL0RvY3VtZW50L2RyYWdlbmRfZXZlbnQ=&#34;&gt;dragend (en-US)&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQVBJL0dsb2JhbEV2ZW50SGFuZGxlcnMvb25kcmFnZW5k&#34;&gt;ondragend(en-US)&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;当拖拽操作结束时触发 (比如松开鼠标按键或敲“Esc”键). (见&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQVBJL0hUTUxfRHJhZ19hbmRfRHJvcF9BUEkvRHJhZ19vcGVyYXRpb25zI2RyYWdlbmQ=&#34;&gt;结束拖拽 (en-US)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;当拖拽操作结束时触发 (比如松开鼠标按键或敲 “Esc” 键). (见&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQVBJL0hUTUxfRHJhZ19hbmRfRHJvcF9BUEkvRHJhZ19vcGVyYXRpb25zI2RyYWdlbmQ=&#34;&gt;结束拖拽 (en-US)&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQVBJL0RvY3VtZW50L2RyYWdlbnRlcl9ldmVudA==&#34;&gt;dragenter (en-US)&lt;/span&gt;&lt;/td&gt;
@@ -352,8 +444,6 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;）。&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvUmVmZXJlbmNlL0V2ZW50cy9kcmFnZXhpdA==&#34;&gt;dragexit&lt;/span&gt;&lt;/td&gt;
@@ -377,8 +467,6 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;）。&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQVBJL0RvY3VtZW50L2Ryb3BfZXZlbnQ=&#34;&gt;drop (en-US)&lt;/span&gt;&lt;/td&gt;
@@ -387,10 +475,9 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;）。&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
  ]]></description>
         </item>
         <item>
@@ -418,66 +505,44 @@
             <category term="ES" scheme="https://oocii.com/tags/ES/" />
             <category term="Array" scheme="https://oocii.com/tags/Array/" />
             <pubDate>Thu, 23 Dec 2021 10:44:51 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;Array.prototype.sort() 方法用原地算法对数组的元素进行排序，并返回数组。默认排序顺序是在将元素转换为字符串，然后比较它们的 UTF-16 代码单元值序列时构建的&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;Array.prototype.sort () 方法用原地算法对数组的元素进行排序，并返回数组。默认排序顺序是在将元素转换为字符串，然后比较它们的 UTF-16 代码单元值序列时构建的&lt;/p&gt;
 &lt;p&gt;由于它取决于具体实现，因此无法保证排序的时间和空间复杂性。&lt;/p&gt;
-&lt;h2 id=&#34;语法&#34;&gt;&lt;a href=&#34;#语法&#34; class=&#34;headerlink&#34; title=&#34;语法&#34;&gt;&lt;/a&gt;语法&lt;/h2&gt;&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;arr.sort([compareFunction]);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;参数&#34;&gt;&lt;a href=&#34;#参数&#34; class=&#34;headerlink&#34; title=&#34;参数&#34;&gt;&lt;/a&gt;参数&lt;/h3&gt;&lt;p&gt;compareFunction 可选&lt;br&gt;用来指定按某种顺序进行排列的函数。如果省略，元素按照转换为的字符串的各个字符的 Unicode 位点进行排序。&lt;br&gt;firstEl&lt;br&gt;第一个用于比较的元素。&lt;br&gt;secondEl&lt;br&gt;第二个用于比较的元素。&lt;br&gt;返回值&lt;br&gt;排序后的数组。请注意，数组已原地排序，并且不进行复制。&lt;/p&gt;
-&lt;h3 id=&#34;描述&#34;&gt;&lt;a href=&#34;#描述&#34; class=&#34;headerlink&#34; title=&#34;描述&#34;&gt;&lt;/a&gt;描述&lt;/h3&gt;&lt;p&gt;如果没有指明 compareFunction ，那么元素会按照转换为的字符串的诸个字符的 Unicode 位点进行排序。例如 “Banana” 会被排列到 “cherry” 之前。当数字按由小到大排序时，9 出现在 80 之前，但因为（没有指明 compareFunction），比较的数字会先被转换为字符串，所以在 Unicode 顺序上 “80” 要比 “9” 要靠前。&lt;/p&gt;
+&lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
+&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;figcaption data-lang=&#34;javascript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;sort&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;compareFunction&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;参数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参数&#34;&gt;#&lt;/a&gt; 参数&lt;/h3&gt;
+&lt;p&gt;compareFunction 可选&lt;br /&gt;
+用来指定按某种顺序进行排列的函数。如果省略，元素按照转换为的字符串的各个字符的 Unicode 位点进行排序。&lt;br /&gt;
+firstEl&lt;br /&gt;
+ 第一个用于比较的元素。&lt;br /&gt;
+secondEl&lt;br /&gt;
+ 第二个用于比较的元素。&lt;br /&gt;
+返回值&lt;br /&gt;
+排序后的数组。请注意，数组已原地排序，并且不进行复制。&lt;/p&gt;
+&lt;h3 id=&#34;描述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#描述&#34;&gt;#&lt;/a&gt; 描述&lt;/h3&gt;
+&lt;p&gt;如果没有指明 compareFunction ，那么元素会按照转换为的字符串的诸个字符的 Unicode 位点进行排序。例如 &amp;quot;Banana&amp;quot; 会被排列到 &amp;quot;cherry&amp;quot; 之前。当数字按由小到大排序时，9 出现在 80 之前，但因为（没有指明 compareFunction），比较的数字会先被转换为字符串，所以在 Unicode 顺序上 &amp;quot;80&amp;quot; 要比 &amp;quot;9&amp;quot; 要靠前。&lt;/p&gt;
 &lt;p&gt;如果指明了 compareFunction ，那么数组会按照调用该函数的返回值排序。即 a 和 b 是两个将要被比较的元素：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;如果 compareFunction(a, b) 小于 0 ，那么 a 会被排列到 b 之前；&lt;/li&gt;
-&lt;li&gt;如果 compareFunction(a, b) 等于 0 ， a 和 b 的相对位置不变。备注： ECMAScript 标准并不保证这一行为，而且也不是所有浏览器都会遵守（例如 Mozilla 在 2003 年之前的版本）；&lt;/li&gt;
-&lt;li&gt;如果 compareFunction(a, b) 大于 0 ， b 会被排列到 a 之前。&lt;br&gt;compareFunction(a, b) 必须总是对相同的输入返回相同的比较结果，否则排序的结果将是不确定的。&lt;br&gt;所以，比较函数格式如下：&lt;/li&gt;
+&lt;li&gt;如果 compareFunction (a, b) 小于 0 ，那么 a 会被排列到 b 之前；&lt;/li&gt;
+&lt;li&gt;如果 compareFunction (a, b) 等于 0 ， a 和 b 的相对位置不变。备注： ECMAScript 标准并不保证这一行为，而且也不是所有浏览器都会遵守（例如 Mozilla 在 2003 年之前的版本）；&lt;/li&gt;
+&lt;li&gt;如果 compareFunction (a, b) 大于 0 ， b 会被排列到 a 之前。&lt;br /&gt;
+compareFunction (a, b) 必须总是对相同的输入返回相同的比较结果，否则排序的结果将是不确定的。&lt;br /&gt;
+所以，比较函数格式如下：&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;function compare(a, b) &amp;#123;
-  if (a &amp;lt; b) &amp;#123;
-    // 按某种排序标准进行比较, a 小于 b
-    return -1;
-  &amp;#125;
-  if (a &amp;gt; b) &amp;#123;
-    return 1;
-  &amp;#125;
-  // a must be equal to b
-  return 0;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以上是 MDN 上面的说明, 但至于各浏览器的具体的实现是没有的.&lt;/p&gt;
-&lt;h2 id=&#34;浏览器对-compareFunction-参数处理的差异&#34;&gt;&lt;a href=&#34;#浏览器对-compareFunction-参数处理的差异&#34; class=&#34;headerlink&#34; title=&#34;浏览器对 compareFunction 参数处理的差异&#34;&gt;&lt;/a&gt;浏览器对 compareFunction 参数处理的差异&lt;/h2&gt;&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;var numbers = [4, 2, 5, 1, 3];
-numbers.sort(function (a, b) &amp;#123;
-  return a - b;
-&amp;#125;);
-console.log(numbers);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;直观感觉上 compareFunction 的 a, b 参数应该是, a === numbers[n], b === numbers[n + 1], 但实际上不同浏览器的处理方式却不同, 以下是 Chrome 和 Firefox 的处理结果:&lt;br&gt;Chrome&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;[1, 2, 3, 4, 5].sort((a, b) =&amp;gt; &amp;#123;
-  console.log(a, b);
-&amp;#125;);
-
-// 2 1
-// 3 2
-// 4 3
-// 5 4
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Firefox&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;[1, 2, 3, 4, 5].sort((a, b) =&amp;gt; &amp;#123;
-  console.log(a, b);
-&amp;#125;);
-
-// 1 2
-// 2 3
-// 3 4
-// 4 5
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;由上面结果可以看到, Chrome 和 Firefox compareFunction 的入参方式完全相反.&lt;/p&gt;
-&lt;p&gt;这是因为 ES 标准 没有规范 compareFunction 传入的参数到底该是什么顺序和算法，只是制定 compareFunction 两数之间的比较规则, 就是上面提到的：&lt;/p&gt;
+&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;figcaption data-lang=&#34;javascript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;compare&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 按某种排序标准进行比较，a 小于 b&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token comment&#34;&gt;// a must be equal to b&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;以上是 MDN 上面的说明，但至于各浏览器的具体的实现是没有的.&lt;/p&gt;
+&lt;h2 id=&#34;浏览器对-comparefunction-参数处理的差异&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#浏览器对-comparefunction-参数处理的差异&#34;&gt;#&lt;/a&gt; 浏览器对 compareFunction 参数处理的差异&lt;/h2&gt;
+&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;figcaption data-lang=&#34;javascript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; numbers &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;numbers&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;sort&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; a &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;numbers&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;直观感觉上 compareFunction 的 a, b 参数应该是，a === numbers [n], b === numbers [n + 1], 但实际上不同浏览器的处理方式却不同，以下是 Chrome 和 Firefox 的处理结果:&lt;br /&gt;
+Chrome&lt;/p&gt;
+&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;figcaption data-lang=&#34;javascript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;sort&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 2 1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 3 2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 4 3&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 5 4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Firefox&lt;/p&gt;
+&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;figcaption data-lang=&#34;javascript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;sort&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 1 2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 2 3&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 3 4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 4 5&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;由上面结果可以看到，Chrome 和 Firefox compareFunction 的入参方式完全相反.&lt;/p&gt;
+&lt;p&gt;这是因为 ES 标准 没有规范 compareFunction 传入的参数到底该是什么顺序和算法，只是制定 compareFunction 两数之间的比较规则，就是上面提到的：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;如果 compareFunction(a, b) 小于 0 ，那么 a 会被排列到 b 之前；&lt;/li&gt;
-&lt;li&gt;如果 compareFunction(a, b) 等于 0 ， a 和 b 的相对位置不变。&lt;/li&gt;
-&lt;li&gt;如果 compareFunction(a, b) 大于 0 ， b 会被排列到 a 之前。&lt;/li&gt;
+&lt;li&gt;如果 compareFunction (a, b) 小于 0 ，那么 a 会被排列到 b 之前；&lt;/li&gt;
+&lt;li&gt;如果 compareFunction (a, b) 等于 0 ， a 和 b 的相对位置不变。&lt;/li&gt;
+&lt;li&gt;如果 compareFunction (a, b) 大于 0 ， b 会被排列到 a 之前。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;明确定义规则后，不管 a, b 两个数传进来的顺序如何, 只在乎它们两数的排序关系。这就解释了为什么同样的 compareFunction 下，尽管不同浏览器接受的参数不一样，还是能排序出一样的结果。&lt;/p&gt;
-&lt;p&gt;参考资料:&lt;br&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSmF2YVNjcmlwdC9SZWZlcmVuY2UvR2xvYmFsX09iamVjdHMvQXJyYXkvc29ydA==&#34;&gt;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/sort&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90YzM5LmVzL2VjbWEyNjIvI3NlYy1hcnJheS5wcm90b3R5cGUuc29ydA==&#34;&gt;https://tc39.es/ecma262/#sec-array.prototype.sort&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;明确定义规则后，不管 a, b 两个数传进来的顺序如何，只在乎它们两数的排序关系。这就解释了为什么同样的 compareFunction 下，尽管不同浏览器接受的参数不一样，还是能排序出一样的结果。&lt;/p&gt;
+&lt;p&gt;参考资料:&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSmF2YVNjcmlwdC9SZWZlcmVuY2UvR2xvYmFsX09iamVjdHMvQXJyYXkvc29ydA==&#34;&gt;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/sort&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90YzM5LmVzL2VjbWEyNjIvI3NlYy1hcnJheS5wcm90b3R5cGUuc29ydA==&#34;&gt;https://tc39.es/ecma262/#sec-array.prototype.sort&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
