@@ -598,11 +598,51 @@ Chrome&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://oocii.com/yuque/%E5%90%8C%E6%AD%A5A/</guid>
-            <title>同步A</title>
-            <link>https://oocii.com/yuque/%E5%90%8C%E6%AD%A5A/</link>
+            <guid isPermalink="true">https://oocii.com/yuque/%E5%8A%A8%E6%80%81%20slot%20%E9%80%8F%E4%BC%A0%E5%B9%B6%E8%8E%B7%E5%8F%96%20slotProps%20%E6%95%B0%E6%8D%AE/</guid>
+            <title>动态 slot 透传并获取 slotProps 数据</title>
+            <link>https://oocii.com/yuque/%E5%8A%A8%E6%80%81%20slot%20%E9%80%8F%E4%BC%A0%E5%B9%B6%E8%8E%B7%E5%8F%96%20slotProps%20%E6%95%B0%E6%8D%AE/</link>
+            <category term="Vue" scheme="https://oocii.com/categories/Vue/" />
+            <category term="slot" scheme="https://oocii.com/categories/Vue/slot/" />
+            <category term="vue" scheme="https://oocii.com/tags/vue/" />
+            <category term="slot" scheme="https://oocii.com/tags/slot/" />
+            <category term="scopedSlots" scheme="https://oocii.com/tags/scopedSlots/" />
+            <category term="dynamicSlotName" scheme="https://oocii.com/tags/dynamicSlotName/" />
             <pubDate>Thu, 23 Dec 2021 10:44:19 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;A&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;slot 透传并获取 slotProps&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-vue&#34;&gt;// grandparent
+&amp;lt;Parent :first-day-of-week=&amp;quot;0&amp;quot; :test-prop=&amp;quot;1999999999&amp;quot; :date=&amp;quot;new Date()&amp;quot;&amp;gt;
+  &amp;lt;template v-slot:monthCellRender=&amp;quot;slotProps&amp;quot;&amp;gt;
+    &amp;lt;h2&amp;gt;
+        month: &amp;#123;&amp;#123; slotProps.month &amp;#125;&amp;#125;
+    &amp;lt;/h2&amp;gt;
+  &amp;lt;/template&amp;gt;
+  &amp;lt;template v-slot:dateCellRender=&amp;quot;slotProps&amp;quot;&amp;gt;
+    &amp;lt;h3 style=&amp;quot;background-color: #eef;&amp;quot;&amp;gt;
+      date: &amp;#123;&amp;#123; slotProps.date &amp;#125;&amp;#125;
+  &amp;lt;/h3&amp;gt;
+  &amp;lt;/template&amp;gt;
+&amp;lt;/Parent&amp;gt;
+
+// parent component(Parent)
+&amp;lt;Child&amp;gt;
+  &amp;lt;template v-for=&amp;quot;(value, slotKeyName) in $scopedSlots&amp;quot; v-slot:[slotKeyName]=&amp;quot;slotProps&amp;quot;&amp;gt;
+    &amp;lt;slot :name=&amp;quot;slotKeyName&amp;quot; v-bind=&amp;quot;slotProps&amp;quot;&amp;gt;&amp;lt;/slot&amp;gt;
+    &amp;lt;div :key=&amp;quot;slotKeyName&amp;quot;&amp;gt;&amp;#123;&amp;#123; slotKeyName &amp;#125;&amp;#125;&amp;lt;/div&amp;gt;
+  &amp;lt;/template&amp;gt;
+&amp;lt;/Child&amp;gt;
+
+// child
+&amp;lt;slot name=&amp;quot;dateCellRender&amp;quot; v-bind=&amp;quot;item&amp;quot;&amp;gt;&amp;lt;/slot&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;从 2.6.0 开始，这个 $scopedSlots 有两个变化：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;作用域插槽函数现在保证返回一个 VNode 数组，除非在返回值无效的情况下返回 undefined。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;所有的 $slots 现在都会作为函数暴露在 $scopedSlots 中&lt;/strong&gt;。如果你在使用渲染函数，不论当前插槽是否带有作用域，我们都推荐始终通过 $scopedSlots 访问它们。这不仅仅使得在未来添加作用域变得简单，也可以让你最终轻松迁移到所有插槽都是函数的 Vue 3。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcvdjIvYXBpLyNzbG90&#34;&gt;https://cn.vuejs.org/v2/api/#slot&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcvdjIvYXBpLyN2bS1zY29wZWRTbG90cw==&#34;&gt;https://cn.vuejs.org/v2/api/#vm-scopedSlots&lt;/span&gt;&lt;br /&gt;
+ 动态插槽名：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcvdjIvZ3VpZGUvY29tcG9uZW50cy1zbG90cy5odG1sIyVFNSU4QSVBOCVFNiU4MCU4MSVFNiU4RiU5MiVFNiVBNyVCRCVFNSU5MCU4RA==&#34;&gt;https://cn.vuejs.org/v2/guide/components-slots.html#%E5%8A%A8%E6%80%81%E6%8F%92%E6%A7%BD%E5%90%8D&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

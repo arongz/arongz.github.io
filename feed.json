@@ -138,12 +138,19 @@
             ]
         },
         {
-            "id": "https://oocii.com/yuque/%E5%90%8C%E6%AD%A5A/",
-            "url": "https://oocii.com/yuque/%E5%90%8C%E6%AD%A5A/",
-            "title": "同步A",
+            "id": "https://oocii.com/yuque/%E5%8A%A8%E6%80%81%20slot%20%E9%80%8F%E4%BC%A0%E5%B9%B6%E8%8E%B7%E5%8F%96%20slotProps%20%E6%95%B0%E6%8D%AE/",
+            "url": "https://oocii.com/yuque/%E5%8A%A8%E6%80%81%20slot%20%E9%80%8F%E4%BC%A0%E5%B9%B6%E8%8E%B7%E5%8F%96%20slotProps%20%E6%95%B0%E6%8D%AE/",
+            "title": "动态 slot 透传并获取 slotProps 数据",
             "date_published": "2021-12-23T02:44:19.000Z",
-            "content_html": "<p>A</p>\n",
-            "tags": []
+            "content_html": "<p>slot 透传并获取 slotProps</p>\n<pre><code class=\"language-vue\">// grandparent\n&lt;Parent :first-day-of-week=&quot;0&quot; :test-prop=&quot;1999999999&quot; :date=&quot;new Date()&quot;&gt;\n  &lt;template v-slot:monthCellRender=&quot;slotProps&quot;&gt;\n    &lt;h2&gt;\n        month: &#123;&#123; slotProps.month &#125;&#125;\n    &lt;/h2&gt;\n  &lt;/template&gt;\n  &lt;template v-slot:dateCellRender=&quot;slotProps&quot;&gt;\n    &lt;h3 style=&quot;background-color: #eef;&quot;&gt;\n      date: &#123;&#123; slotProps.date &#125;&#125;\n  &lt;/h3&gt;\n  &lt;/template&gt;\n&lt;/Parent&gt;\n\n// parent component(Parent)\n&lt;Child&gt;\n  &lt;template v-for=&quot;(value, slotKeyName) in $scopedSlots&quot; v-slot:[slotKeyName]=&quot;slotProps&quot;&gt;\n    &lt;slot :name=&quot;slotKeyName&quot; v-bind=&quot;slotProps&quot;&gt;&lt;/slot&gt;\n    &lt;div :key=&quot;slotKeyName&quot;&gt;&#123;&#123; slotKeyName &#125;&#125;&lt;/div&gt;\n  &lt;/template&gt;\n&lt;/Child&gt;\n\n// child\n&lt;slot name=&quot;dateCellRender&quot; v-bind=&quot;item&quot;&gt;&lt;/slot&gt;\n</code></pre>\n<p>从 2.6.0 开始，这个 $scopedSlots 有两个变化：</p>\n<ol>\n<li>作用域插槽函数现在保证返回一个 VNode 数组，除非在返回值无效的情况下返回 undefined。</li>\n<li><strong>所有的 $slots 现在都会作为函数暴露在 $scopedSlots 中</strong>。如果你在使用渲染函数，不论当前插槽是否带有作用域，我们都推荐始终通过 $scopedSlots 访问它们。这不仅仅使得在未来添加作用域变得简单，也可以让你最终轻松迁移到所有插槽都是函数的 Vue 3。</li>\n</ol>\n<p><strong>参考资料：</strong><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9jbi52dWVqcy5vcmcvdjIvYXBpLyNzbG90\">https://cn.vuejs.org/v2/api/#slot</span><br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9jbi52dWVqcy5vcmcvdjIvYXBpLyN2bS1zY29wZWRTbG90cw==\">https://cn.vuejs.org/v2/api/#vm-scopedSlots</span><br />\n 动态插槽名：<span class=\"exturl\" data-url=\"aHR0cHM6Ly9jbi52dWVqcy5vcmcvdjIvZ3VpZGUvY29tcG9uZW50cy1zbG90cy5odG1sIyVFNSU4QSVBOCVFNiU4MCU4MSVFNiU4RiU5MiVFNiVBNyVCRCVFNSU5MCU4RA==\">https://cn.vuejs.org/v2/guide/components-slots.html#%E5%8A%A8%E6%80%81%E6%8F%92%E6%A7%BD%E5%90%8D</span></p>\n",
+            "tags": [
+                "Vue",
+                "slot",
+                "vue",
+                "slot",
+                "scopedSlots",
+                "dynamicSlotName"
+            ]
         }
     ]
 }
