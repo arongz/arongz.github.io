@@ -8,10 +8,119 @@
     <author>
       <name>Az</name>
     </author>
-    <updated>2022-01-10T06:32:30.000Z</updated>
+    <updated>2022-01-21T10:45:26.000Z</updated>
     <category term="FE" />
     <category term=" 寺木" />
     <category term=" Blog" />
+    <entry>
+        <id>https://oocii.com/yuque/DOM%20Node%20%E5%92%8C%20Element%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F/</id>
+        <title>DOM Node 和 Element 有什么区别？</title>
+        <link rel="alternate" href="https://oocii.com/yuque/DOM%20Node%20%E5%92%8C%20Element%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F/"/>
+        <content type="html">&lt;p&gt;文档对象模型 (DOM) 是将 HTML 或 XML 文档视为树结构的接口，其中每个节点都是文档的一个对象。DOM 还提供了一组方法来查询树、改变结构、样式。&lt;br /&gt;
+DOM 还使用术语&lt;em&gt; element&lt;/em&gt; : 与节点非常相似。那么，DOM 节点和元素有什么区别呢？&lt;/p&gt;
+&lt;h2 id=&#34;1dom-node-节点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1dom-node-节点&#34;&gt;#&lt;/a&gt; 1.DOM Node 节点&lt;/h2&gt;
+&lt;p&gt;理解节点和元素之间区别的关键是理解节点是什么。&lt;br /&gt;
+从更高的角度来看，DOM 文档由节点的层次结构组成。每个节点可以有一个父节点和 / 或子节点。&lt;br /&gt;
+我们看一下下面的 HTML 文档：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-vue&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;My Page&amp;lt;/title&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;!-- Page Body --&amp;gt;
+    &amp;lt;h2&amp;gt;My Page&amp;lt;/h2&amp;gt;
+    &amp;lt;p id=&amp;quot;content&amp;quot;&amp;gt;Thank you for visiting my web page!&amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;该文档包含以下节点层次结构：&lt;br /&gt;
+&lt;a href=&#34;https://dmitripavlutin.com/static/75f1711be6313112e996905bd49c9951/0df09/dom-nodes.png&#34;&gt;&lt;img data-src=&#34;https://cdn.nlark.com/yuque/0/2022/png/360567/1642761948285-3b3a1a54-2514-44c5-adb7-1b283fa57384.png#clientId=ued827b68-2f58-4&amp;amp;crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;from=paste&amp;amp;id=uc785e15b&amp;amp;margin=%5Bobject%20Object%5D&amp;amp;originHeight=303&amp;amp;originWidth=560&amp;amp;originalType=url%E2%88%B6=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;status=done&amp;amp;style=none&amp;amp;taskId=ub282eaed-ec01-48be-a2f0-32261739c0e&amp;amp;title=&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;html&amp;gt; 是文档树中的一个节点。它有 2 个子节点：&amp;lt;head &amp;gt; 和 &amp;lt; body &amp;gt; 节点。&lt;br /&gt;
+&amp;lt;body&amp;gt; 也是一个具有 3 个子节点的节点：评论 &amp;lt;!-- Page Body --&amp;gt;、标题 &amp;lt; h2 &amp;gt; 和段落 &amp;lt; p&amp;gt;。&amp;lt;body &amp;gt; 节点的父节点是 &amp;lt; html &amp;gt; 节点。&lt;br /&gt;
+HTML 文档中的标签代表一个节点，有趣的是常规文本也是一个节点。段落节点 &amp;lt;p&amp;gt; 有 1 个子节点：文本节点 &amp;quot;Thank you for visiting my web page!&amp;quot;。&lt;/p&gt;
+&lt;h3 id=&#34;12-节点类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#12-节点类型&#34;&gt;#&lt;/a&gt; 1.2 节点类型&lt;/h3&gt;
+&lt;p&gt;如何区分这些不同类型的节点？答案在于 DOM &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQVBJL05vZGU=&#34;&gt;Node&lt;/span&gt; 接口，尤其是 Node.nodeType 属性。&lt;br /&gt;
+Node.nodeType 可以具有以下表示节点类型的值之一：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Node.ELEMENT_NODE&lt;/li&gt;
+&lt;li&gt;Node.ATTRIBUTE_NODE&lt;/li&gt;
+&lt;li&gt;Node.TEXT_NODE&lt;/li&gt;
+&lt;li&gt;Node.CDATA_SECTION_NODE&lt;/li&gt;
+&lt;li&gt;Node.PROCESSING_INSTRUCTION_NODE&lt;/li&gt;
+&lt;li&gt;Node.COMMENT_NODE&lt;/li&gt;
+&lt;li&gt;Node.DOCUMENT_NODE&lt;/li&gt;
+&lt;li&gt;Node.DOCUMENT_TYPE_NODE&lt;/li&gt;
+&lt;li&gt;Node.DOCUMENT_FRAGMENT_NODE&lt;/li&gt;
+&lt;li&gt;Node.NOTATION_NODE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;常量有意义地指示节点类型：例如 Node.ELEMENT_NODE 表示元素节点、Node.TEXT_NODE 表示文本节点、Node.DOCUMENT_NODE 文档节点等。&lt;br /&gt;
+例如，让我们选择段落节点，并查看其 nodeType 属性：&lt;br /&gt;
+const paragraph = document.querySelector(&#39;p&#39;);&lt;br /&gt;
+paragraph.nodeType === Node.ELEMENT_NODE; // =&amp;gt; true&lt;br /&gt;
+ 正如预期 paragraph.nodeType 的那样，有值 Node.ELEMENT_NODE，表明该段落是一个元素。&lt;br /&gt;
+该段落还包含一个文本节点：&lt;br /&gt;
+const paragraph = document.querySelector(&#39;p&#39;);&lt;br /&gt;
+const firstChild = paragraph.childNodes[0];&lt;br /&gt;
+firstChild.nodeType === Node.TEXT_NODE; // =&amp;gt; true&lt;br /&gt;
+ 有一个节点类型表示整个节点的文档树 - Node.DOCUMENT_NODE：&lt;br /&gt;
+document.nodeType === Node.DOCUMENT_NODE; // =&amp;gt; true&lt;/p&gt;
+&lt;h2 id=&#34;2dom-element-元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2dom-element-元素&#34;&gt;#&lt;/a&gt; 2.DOM Element 元素&lt;/h2&gt;
+&lt;p&gt;了解 DOM 节点是什么之后，现在就是区分 DOM 节点和元素的时候了。&lt;br /&gt;
+如果你理解了&lt;em&gt;节点&lt;/em&gt;术语，那么答案就很明显了：元素是特定类型的节点 —— 元素 (Node.ELEMENT_NODE)。以及文档、评论、文本等类型。&lt;br /&gt;
+简单来说，元素是使用 HTML 文档中的标记编写的节点。&amp;lt;html&amp;gt;, &amp;lt;head&amp;gt;, &amp;lt;title&amp;gt;, &amp;lt;body&amp;gt;, &amp;lt;h2&amp;gt;,&amp;lt;p &amp;gt; 都是元素，因为它们是由标签表示的。&lt;br /&gt;
+文档类型、注释、文本节点不是元素，因为它们不是用标签编写的：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-vue&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;!-- Page Body --&amp;gt;
+    &amp;lt;p&amp;gt;Thank you for visiting my web page!&amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Node 是节点 HTMLElement 的构造函数，是 JavaScript DOM 中元素的构造函数。一个段落，是一个节点，并且还一个元素，既是的一个实例 Node 和 HTMLElement：&lt;br /&gt;
+const paragraph = document.querySelector(&#39;p&#39;);&lt;br /&gt;
+paragraph instanceof Node; // =&amp;gt; true&lt;br /&gt;
+paragraph instanceof HTMLElement; // =&amp;gt; true&lt;br /&gt;
+ 简单地说，元素是节点的子类型，就像猫是动物的子类型一样。&lt;/p&gt;
+&lt;h2 id=&#34;3dom-属性节点和元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3dom-属性节点和元素&#34;&gt;#&lt;/a&gt; 3.DOM 属性：节点和元素&lt;/h2&gt;
+&lt;p&gt;除了区分节点和元素之外，您还需要区分仅包含节点或仅包含元素的 DOM 属性。&lt;br /&gt;
+以下 Node 类型的属性计算为一个节点或节点集合 (NodeList)：&lt;br /&gt;
+node.parentNode; // Node or null&lt;br /&gt;
+node.firstChild; // Node or null&lt;br /&gt;
+node.lastChild; // Node or null&lt;br /&gt;
+node.childNodes; // NodeList&lt;br /&gt;
+ 但是，以下属性是元素或元素集合 (HTMLCollection)：&lt;br /&gt;
+node.parentElement; // HTMLElement or null&lt;br /&gt;
+node.children; // HTMLCollection&lt;br /&gt;
+ 既然两者都 node.childNodes 返回 node.children 一个子列表，为什么这两个属性都有呢？好问题！&lt;br /&gt;
+考虑以下包含一些文本的段落元素：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-vue&#34;&gt;&amp;lt;p&amp;gt;
+  &amp;lt;b&amp;gt;Thank you&amp;lt;/b&amp;gt; for visiting my web page!
+&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;打开&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9qc2l0b3IuY29tLzNtUHdvU1ZiWWg=&#34;&gt; demo&lt;/span&gt;，然后查看 parapgraph 节点的 childNodes 和属性：children&lt;br /&gt;
+const paragraph = document.querySelector(&#39;p&#39;);&lt;br /&gt;
+paragraph.childNodes; // NodeList: [HTMLElement, Text]&lt;br /&gt;
+paragraph.children; // HTMLCollection: [HTMLElement]&lt;br /&gt;
+ paragraph.childNodes 集合包含 2 个节点：&lt;br /&gt;
+粗体元素 &amp;lt;b&amp;gt;Thank you&amp;lt;/b&amp;gt;，以及文本节点 for visiting my web page!。&lt;br /&gt;
+但是，paragraph.children 集合仅包含一项：粗体元素 &amp;lt;b&amp;gt;Thank you&amp;lt;/b&amp;gt;。&lt;br /&gt;
+因为 paragraph.children 只包含元素，所以这里没有包含文本节点，因为它的类型是文本 (Node.TEXT_NODE)，而不是元素 ( Node.ELEMENT_NODE)。&lt;br /&gt;
+同时拥有 node.childNodes 并 node.children 让您选择要访问的子节点的集合：所有子节点或只有子节点是元素。&lt;/p&gt;
+&lt;h2 id=&#34;4总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4总结&#34;&gt;#&lt;/a&gt; 4. 总结&lt;/h2&gt;
+&lt;p&gt;DOM 文档是节点的分层集合。每个节点可以有一个父节点和 / 或子节点。&lt;br /&gt;
+如果您了解节点是什么，就很容易理解 DOM 节点和元素之间的区别。&lt;br /&gt;
+节点有类型，元素类型就是其中之一。该元素由 HTML 文档中的标记表示。&lt;br /&gt;
+&lt;em&gt;​&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;测验：什么类型的节点永远没有父节点？&lt;/em&gt;&lt;/p&gt;
+</content>
+        <category term="DOM" scheme="https://oocii.com/categories/DOM/" />
+        <category term="dom" scheme="https://oocii.com/tags/dom/" />
+        <category term="node" scheme="https://oocii.com/tags/node/" />
+        <category term="element" scheme="https://oocii.com/tags/element/" />
+        <updated>2022-01-21T10:45:26.000Z</updated>
+    </entry>
     <entry>
         <id>https://oocii.com/yuque/Date/</id>
         <title>Date</title>
