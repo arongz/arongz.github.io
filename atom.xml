@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://oocii.com</id>
+    <id>https://www.oocii.com</id>
     <title>奥奇</title>
     <subtitle>“任何技术和语言，都只是工具，工具的唯一目的就是把东西做出来，不要因为熟练使用某个工具而沾沾自喜，躲在舒适圈不出来。”</subtitle>
-    <icon>https://oocii.com/images/favicon.ico</icon>
-    <link href="https://oocii.com" />
+    <icon>https://www.oocii.com/images/favicon.ico</icon>
+    <link href="https://www.oocii.com" />
     <author>
       <name>Az</name>
     </author>
@@ -15,9 +15,9 @@
     <category term=" oocii" />
     <category term=" Blog" />
     <entry>
-        <id>https://oocii.com/yuque/DOM%20Node%20%E5%92%8C%20Element%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F/</id>
+        <id>https://www.oocii.com/yuque/DOM%20Node%20%E5%92%8C%20Element%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F/</id>
         <title>DOM Node 和 Element 有什么区别？</title>
-        <link rel="alternate" href="https://oocii.com/yuque/DOM%20Node%20%E5%92%8C%20Element%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/DOM%20Node%20%E5%92%8C%20Element%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F/"/>
         <content type="html">&lt;p&gt;文档对象模型 (DOM) 是将 HTML 或 XML 文档视为树结构的接口，其中每个节点都是文档的一个对象。DOM 还提供了一组方法来查询树、改变结构、样式。&lt;br /&gt;
 DOM 还使用术语&lt;em&gt; element&lt;/em&gt; : 与节点非常相似。那么，DOM 节点和元素有什么区别呢？&lt;/p&gt;
 &lt;h2 id=&#34;1dom-node-节点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1dom-node-节点&#34;&gt;#&lt;/a&gt; 1.DOM Node 节点&lt;/h2&gt;
@@ -117,16 +117,16 @@ paragraph.children; // HTMLCollection: [HTMLElement]&lt;br /&gt;
 &lt;em&gt;​&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;测验：什么类型的节点永远没有父节点？&lt;/em&gt;&lt;/p&gt;
 </content>
-        <category term="DOM" scheme="https://oocii.com/categories/DOM/" />
-        <category term="dom" scheme="https://oocii.com/tags/dom/" />
-        <category term="node" scheme="https://oocii.com/tags/node/" />
-        <category term="element" scheme="https://oocii.com/tags/element/" />
+        <category term="DOM" scheme="https://www.oocii.com/categories/DOM/" />
+        <category term="dom" scheme="https://www.oocii.com/tags/dom/" />
+        <category term="node" scheme="https://www.oocii.com/tags/node/" />
+        <category term="element" scheme="https://www.oocii.com/tags/element/" />
         <updated>2022-01-21T10:45:26.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/Date/</id>
+        <id>https://www.oocii.com/yuque/Date/</id>
         <title>Date</title>
-        <link rel="alternate" href="https://oocii.com/yuque/Date/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/Date/"/>
         <content type="html">&lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法：&lt;/h2&gt;
 &lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;new &lt;span class=&#34;token function&#34;&gt;Date&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;new &lt;span class=&#34;token function&#34;&gt;Date&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;value&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;new &lt;span class=&#34;token function&#34;&gt;Date&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;dateString&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;new &lt;span class=&#34;token function&#34;&gt;Date&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;year&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; monthIndex [&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; day [&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hours [&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; minutes [&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; seconds [&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; milliseconds]]]]]&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;参数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参数&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSmF2YVNjcmlwdC9SZWZlcmVuY2UvR2xvYmFsX09iamVjdHMvRGF0ZSMlRTUlOEYlODIlRTYlOTUlQjA=&#34;&gt;参数&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Date()&lt;/strong&gt; 构造函数有四种基本形式&lt;/p&gt;
@@ -165,31 +165,31 @@ paragraph.children; // HTMLCollection: [HTMLElement]&lt;br /&gt;
 &lt;li&gt;&lt;em&gt;调用 Date 对象的 set 方法（&lt;/em&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSmF2YVNjcmlwdC9SZWZlcmVuY2UvR2xvYmFsX09iamVjdHMvRGF0ZS9zZXREYXRl&#34;&gt;setDate()&lt;/span&gt;&lt;em&gt;，&lt;/em&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSmF2YVNjcmlwdC9SZWZlcmVuY2UvR2xvYmFsX09iamVjdHMvRGF0ZS9zZXRGdWxsWWVhcg==&#34;&gt;setFullYear()&lt;/span&gt;_...）返回时间戳数字 如： _177610530000&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="JavaScript" scheme="https://oocii.com/categories/JavaScript/" />
-        <category term="Standard built-in objects" scheme="https://oocii.com/categories/JavaScript/Standard-built-in-objects/" />
-        <category term="Date" scheme="https://oocii.com/categories/JavaScript/Standard-built-in-objects/Date/" />
-        <category term="Javascript" scheme="https://oocii.com/tags/Javascript/" />
-        <category term="JS" scheme="https://oocii.com/tags/JS/" />
-        <category term="ES" scheme="https://oocii.com/tags/ES/" />
-        <category term="date" scheme="https://oocii.com/tags/date/" />
-        <category term="timestamp" scheme="https://oocii.com/tags/timestamp/" />
+        <category term="JavaScript" scheme="https://www.oocii.com/categories/JavaScript/" />
+        <category term="Standard built-in objects" scheme="https://www.oocii.com/categories/JavaScript/Standard-built-in-objects/" />
+        <category term="Date" scheme="https://www.oocii.com/categories/JavaScript/Standard-built-in-objects/Date/" />
+        <category term="Javascript" scheme="https://www.oocii.com/tags/Javascript/" />
+        <category term="JS" scheme="https://www.oocii.com/tags/JS/" />
+        <category term="ES" scheme="https://www.oocii.com/tags/ES/" />
+        <category term="date" scheme="https://www.oocii.com/tags/date/" />
+        <category term="timestamp" scheme="https://www.oocii.com/tags/timestamp/" />
         <updated>2022-01-10T06:32:30.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/tag2/</id>
+        <id>https://www.oocii.com/yuque/tag2/</id>
         <title>tag2.</title>
-        <link rel="alternate" href="https://oocii.com/yuque/tag2/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/tag2/"/>
         <content type="html">&lt;p&gt;gxvxcvxcvxcvx&lt;/p&gt;
 </content>
-        <category term="testtag" scheme="https://oocii.com/categories/testtag/" />
-        <category term="tags1" scheme="https://oocii.com/tags/tags1/" />
-        <category term="tags2" scheme="https://oocii.com/tags/tags2/" />
+        <category term="testtag" scheme="https://www.oocii.com/categories/testtag/" />
+        <category term="tags1" scheme="https://www.oocii.com/tags/tags1/" />
+        <category term="tags2" scheme="https://www.oocii.com/tags/tags2/" />
         <updated>2022-01-06T11:04:58.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/Tags..9/</id>
+        <id>https://www.oocii.com/yuque/Tags..9/</id>
         <title>Tags..9</title>
-        <link rel="alternate" href="https://oocii.com/yuque/Tags..9/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/Tags..9/"/>
         <content type="html">&lt;p&gt;&lt;a href=&#34;https://tva4.sinaimg.cn/large/7e4d62c9ly8gy6ebeudnqj219b0u0mzp.jpg&#34;&gt;&lt;br /&gt;
 &lt;/a&gt;&lt;br /&gt;
 &lt;img data-src=&#34;https://tva4.sinaimg.cn/large/7e4d62c9ly8gy6ebeudnqj219b0u0mzp.jpg#crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;id=sbikx&amp;amp;originHeight=1080&amp;amp;originWidth=1631&amp;amp;originalType=binary%E2%88%B6=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;status=done&amp;amp;style=none&amp;amp;title=&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -199,24 +199,24 @@ paragraph.children; // HTMLCollection: [HTMLElement]&lt;br /&gt;
 &lt;p&gt;​&lt;/p&gt;
 &lt;p&gt;more detail&lt;/p&gt;
 </content>
-        <category term="img" scheme="https://oocii.com/tags/img/" />
+        <category term="img" scheme="https://www.oocii.com/tags/img/" />
         <updated>2022-01-06T10:24:25.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/JavaScript/</id>
+        <id>https://www.oocii.com/yuque/JavaScript/</id>
         <title>JavaScript</title>
-        <link rel="alternate" href="https://oocii.com/yuque/JavaScript/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/JavaScript/"/>
         <content type="html"></content>
-        <category term="JavaScript" scheme="https://oocii.com/categories/JavaScript/" />
-        <category term="Javascript" scheme="https://oocii.com/tags/Javascript/" />
-        <category term="JS" scheme="https://oocii.com/tags/JS/" />
-        <category term="ES" scheme="https://oocii.com/tags/ES/" />
+        <category term="JavaScript" scheme="https://www.oocii.com/categories/JavaScript/" />
+        <category term="Javascript" scheme="https://www.oocii.com/tags/Javascript/" />
+        <category term="JS" scheme="https://www.oocii.com/tags/JS/" />
+        <category term="ES" scheme="https://www.oocii.com/tags/ES/" />
         <updated>2022-01-05T03:18:49.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/CSS_display_%E5%B1%9E%E6%80%A7%E5%80%BC%E5%88%86%E7%B1%BB/</id>
+        <id>https://www.oocii.com/yuque/CSS_display_%E5%B1%9E%E6%80%A7%E5%80%BC%E5%88%86%E7%B1%BB/</id>
         <title>CSS_display_属性值分类</title>
-        <link rel="alternate" href="https://oocii.com/yuque/CSS_display_%E5%B1%9E%E6%80%A7%E5%80%BC%E5%88%86%E7%B1%BB/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/CSS_display_%E5%B1%9E%E6%80%A7%E5%80%BC%E5%88%86%E7%B1%BB/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;display&lt;/strong&gt; 属性可以设置元素的内部和外部显示类型 &lt;em&gt;display types&lt;/em&gt;。元素的外部显示类型 &lt;em&gt;outer display types&lt;/em&gt; 将决定该元素在流式布局中的表现（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19GbG93X0xheW91dA==&#34;&gt;块级或内联元素&lt;/span&gt;）；元素的内部显示类型 &lt;em&gt;inner display types&lt;/em&gt; 可以控制其子元素的布局（例如：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19GbG93X0xheW91dA==&#34;&gt;flow layout&lt;/span&gt;，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19HcmlkX0xheW91dA==&#34;&gt;grid&lt;/span&gt; 或 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQ1NTL0NTU19GbGV4aWJsZV9Cb3hfTGF5b3V0&#34;&gt;flex&lt;/span&gt;）。&lt;br /&gt;
 在 &lt;strong&gt;CSS 规范&lt;/strong&gt;（特指 CSS Level 1/2/3 规范）中查阅 &lt;strong&gt;display&lt;/strong&gt; 属性的所有取值时需要注意：个别取值的详细信息记录在独立的规范中。 例如，display: flex 的详细信息在 &lt;em&gt;CSS Flexible Box Model&lt;/em&gt; 规范中记录。可以在本文档末尾的表格中查看所有有关的规范。&lt;/p&gt;
 &lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
@@ -311,14 +311,14 @@ Copy to Clipboard&lt;br /&gt;
 &lt;p&gt;/_ Global values _/ display: inherit; display: initial; display: unset;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
-        <category term="CSS" scheme="https://oocii.com/categories/CSS/" />
-        <category term="CSS" scheme="https://oocii.com/tags/CSS/" />
+        <category term="CSS" scheme="https://www.oocii.com/categories/CSS/" />
+        <category term="CSS" scheme="https://www.oocii.com/tags/CSS/" />
         <updated>2022-01-04T12:15:39.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/default/%E5%9D%97%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%B8%8A%E4%B8%8B%E6%96%87%20Block%20formatting%20context(BFC)/</id>
+        <id>https://www.oocii.com/default/%E5%9D%97%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%B8%8A%E4%B8%8B%E6%96%87%20Block%20formatting%20context(BFC)/</id>
         <title>块格式化上下文 Block formatting context(BFC)</title>
-        <link rel="alternate" href="https://oocii.com/default/%E5%9D%97%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%B8%8A%E4%B8%8B%E6%96%87%20Block%20formatting%20context(BFC)/"/>
+        <link rel="alternate" href="https://www.oocii.com/default/%E5%9D%97%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%B8%8A%E4%B8%8B%E6%96%87%20Block%20formatting%20context(BFC)/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;block formatting contexts&lt;/strong&gt; 是 &lt;strong&gt;formatting contexts&lt;/strong&gt; 格式化上下文的概念之一，&lt;strong&gt;formatting contexts&lt;/strong&gt; 其中有几种类型，包括块格式化上下文 block formatting contexts、内联格式化上下文 inline formatting contexts 和灵活格式化上下文 flex formatting contexts。&lt;br /&gt;
 ​&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;块格式化上下文（Block formatting context，BFC）&lt;/strong&gt; 是 Web 页面的可视 CSS 渲染的一部分，是块盒子的布局过程发生的区域，也是浮动元素与其他元素交互的区域。&lt;br /&gt;
@@ -358,16 +358,16 @@ Copy to Clipboard&lt;br /&gt;
  使用 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRNTC9FbGVtZW50L2Rpdg==&#34;&gt;&amp;lt;div&amp;gt;&lt;/span&gt; 上的 display: flow-root ，该容器内的所有内容都参与该容器的块格式上下文，并且浮动不会从元素底部弹出。&lt;br /&gt;
 flow-root 关键字的意义是，创建的内容本质上类似于一个新的根元素（如 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRNTC9FbGVtZW50L2h0bWw=&#34;&gt;&amp;lt;html&amp;gt;&lt;/span&gt; 所做），并确定这个新的上下文如何创建及其流布局如何实现。&lt;/p&gt;
 </content>
-        <category term="CSS" scheme="https://oocii.com/categories/CSS/" />
-        <category term="formatting context" scheme="https://oocii.com/categories/CSS/formatting-context/" />
-        <category term="CSS" scheme="https://oocii.com/tags/CSS/" />
-        <category term="BFC" scheme="https://oocii.com/tags/BFC/" />
+        <category term="CSS" scheme="https://www.oocii.com/categories/CSS/" />
+        <category term="formatting context" scheme="https://www.oocii.com/categories/CSS/formatting-context/" />
+        <category term="CSS" scheme="https://www.oocii.com/tags/CSS/" />
+        <category term="BFC" scheme="https://www.oocii.com/tags/BFC/" />
         <updated>2021-12-30T07:03:01.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/DOM/</id>
+        <id>https://www.oocii.com/yuque/DOM/</id>
         <title>DOM</title>
-        <link rel="alternate" href="https://oocii.com/yuque/DOM/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/DOM/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;文档对象模型 (&lt;em&gt;DOM)&lt;/em&gt;&lt;/strong&gt; 将 web 页面与到脚本或编程语言连接起来。通常是指 JavaScript，但将 HTML、SVG 或 XML 文档建模为对象并不是 JavaScript 语言的一部分。DOM 模型用一个逻辑树来表示一个文档，树的每个分支的终点都是一个节点 (node)，每个节点都包含着对象 (objects)。DOM 的方法 (methods) 让你可以用特定方式操作这个树，用这些方法你可以改变文档的结构、样式或者内容。节点可以关联上事件处理器，一旦某一事件被触发了，那些事件处理器就会被执行。&lt;/p&gt;
 &lt;h2 id=&#34;dom-接口&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dom-接口&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQVBJL0RvY3VtZW50X09iamVjdF9Nb2RlbCNkb21fJUU2JThFJUE1JUU1JThGJUEz&#34;&gt;DOM 接口&lt;/span&gt;&lt;/h2&gt;
 &lt;ul&gt;
@@ -413,9 +413,9 @@ flow-root 关键字的意义是，创建的内容本质上类似于一个新的�
         <updated>2021-12-25T10:04:40.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/Web%20APIs/</id>
+        <id>https://www.oocii.com/yuque/Web%20APIs/</id>
         <title>Web APIs</title>
-        <link rel="alternate" href="https://oocii.com/yuque/Web%20APIs/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/Web%20APIs/"/>
         <content type="html">&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQVBJ&#34;&gt;https://developer.mozilla.org/zh-CN/docs/Web/API&lt;/span&gt;&lt;br /&gt;
 ​&lt;/p&gt;
 &lt;p&gt;B&lt;/p&gt;
@@ -571,9 +571,9 @@ flow-root 关键字的意义是，创建的内容本质上类似于一个新的�
         <updated>2021-12-25T10:00:56.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/%E6%8B%96%E6%94%BE%20Drag%20and%20Drop/</id>
+        <id>https://www.oocii.com/yuque/%E6%8B%96%E6%94%BE%20Drag%20and%20Drop/</id>
         <title>拖放 Drag and Drop</title>
-        <link rel="alternate" href="https://oocii.com/yuque/%E6%8B%96%E6%94%BE%20Drag%20and%20Drop/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/%E6%8B%96%E6%94%BE%20Drag%20and%20Drop/"/>
         <content type="html">&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -641,23 +641,23 @@ flow-root 关键字的意义是，创建的内容本质上类似于一个新的�
         <updated>2021-12-25T09:52:47.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/%E5%90%8C%E6%AD%A53/</id>
+        <id>https://www.oocii.com/yuque/%E5%90%8C%E6%AD%A53/</id>
         <title>同步3</title>
-        <link rel="alternate" href="https://oocii.com/yuque/%E5%90%8C%E6%AD%A53/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/%E5%90%8C%E6%AD%A53/"/>
         <content type="html"></content>
         <updated>2021-12-24T04:01:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/%E5%90%8C%E6%AD%A52/</id>
+        <id>https://www.oocii.com/yuque/%E5%90%8C%E6%AD%A52/</id>
         <title>同步2</title>
-        <link rel="alternate" href="https://oocii.com/yuque/%E5%90%8C%E6%AD%A52/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/%E5%90%8C%E6%AD%A52/"/>
         <content type="html"></content>
         <updated>2021-12-23T05:29:10.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/Array.prototype.sort()%20%E6%96%B9%E6%B3%95%E5%9C%A8%E4%B8%8D%E5%90%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E9%97%B4%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%B7%AE%E5%BC%82/</id>
+        <id>https://www.oocii.com/yuque/Array.prototype.sort()%20%E6%96%B9%E6%B3%95%E5%9C%A8%E4%B8%8D%E5%90%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E9%97%B4%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%B7%AE%E5%BC%82/</id>
         <title>Array.prototype.sort() 方法在不同浏览器间的实现差异</title>
-        <link rel="alternate" href="https://oocii.com/yuque/Array.prototype.sort()%20%E6%96%B9%E6%B3%95%E5%9C%A8%E4%B8%8D%E5%90%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E9%97%B4%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%B7%AE%E5%BC%82/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/Array.prototype.sort()%20%E6%96%B9%E6%B3%95%E5%9C%A8%E4%B8%8D%E5%90%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E9%97%B4%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%B7%AE%E5%BC%82/"/>
         <content type="html">&lt;p&gt;Array.prototype.sort () 方法用原地算法对数组的元素进行排序，并返回数组。默认排序顺序是在将元素转换为字符串，然后比较它们的 UTF-16 代码单元值序列时构建的&lt;/p&gt;
 &lt;p&gt;由于它取决于具体实现，因此无法保证排序的时间和空间复杂性。&lt;/p&gt;
 &lt;h2 id=&#34;语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#语法&#34;&gt;#&lt;/a&gt; 语法&lt;/h2&gt;
@@ -697,18 +697,18 @@ Chrome&lt;/p&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSmF2YVNjcmlwdC9SZWZlcmVuY2UvR2xvYmFsX09iamVjdHMvQXJyYXkvc29ydA==&#34;&gt;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/sort&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90YzM5LmVzL2VjbWEyNjIvI3NlYy1hcnJheS5wcm90b3R5cGUuc29ydA==&#34;&gt;https://tc39.es/ecma262/#sec-array.prototype.sort&lt;/span&gt;&lt;/p&gt;
 </content>
-        <category term="JavaScript" scheme="https://oocii.com/categories/JavaScript/" />
-        <category term="Array" scheme="https://oocii.com/categories/JavaScript/Array/" />
-        <category term="Javascript" scheme="https://oocii.com/tags/Javascript/" />
-        <category term="JS" scheme="https://oocii.com/tags/JS/" />
-        <category term="ES" scheme="https://oocii.com/tags/ES/" />
-        <category term="Array" scheme="https://oocii.com/tags/Array/" />
+        <category term="JavaScript" scheme="https://www.oocii.com/categories/JavaScript/" />
+        <category term="Array" scheme="https://www.oocii.com/categories/JavaScript/Array/" />
+        <category term="Javascript" scheme="https://www.oocii.com/tags/Javascript/" />
+        <category term="JS" scheme="https://www.oocii.com/tags/JS/" />
+        <category term="ES" scheme="https://www.oocii.com/tags/ES/" />
+        <category term="Array" scheme="https://www.oocii.com/tags/Array/" />
         <updated>2021-12-23T02:44:51.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/yuque/%E5%8A%A8%E6%80%81%20slot%20%E9%80%8F%E4%BC%A0%E5%B9%B6%E8%8E%B7%E5%8F%96%20slotProps%20%E6%95%B0%E6%8D%AE/</id>
+        <id>https://www.oocii.com/yuque/%E5%8A%A8%E6%80%81%20slot%20%E9%80%8F%E4%BC%A0%E5%B9%B6%E8%8E%B7%E5%8F%96%20slotProps%20%E6%95%B0%E6%8D%AE/</id>
         <title>动态 slot 透传并获取 slotProps 数据</title>
-        <link rel="alternate" href="https://oocii.com/yuque/%E5%8A%A8%E6%80%81%20slot%20%E9%80%8F%E4%BC%A0%E5%B9%B6%E8%8E%B7%E5%8F%96%20slotProps%20%E6%95%B0%E6%8D%AE/"/>
+        <link rel="alternate" href="https://www.oocii.com/yuque/%E5%8A%A8%E6%80%81%20slot%20%E9%80%8F%E4%BC%A0%E5%B9%B6%E8%8E%B7%E5%8F%96%20slotProps%20%E6%95%B0%E6%8D%AE/"/>
         <content type="html">&lt;p&gt;slot 透传并获取 slotProps&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-vue&#34;&gt;// grandparent
 &amp;lt;Parent :first-day-of-week=&amp;quot;0&amp;quot; :test-prop=&amp;quot;1999999999&amp;quot; :date=&amp;quot;new Date()&amp;quot;&amp;gt;
@@ -745,18 +745,18 @@ Chrome&lt;/p&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcvdjIvYXBpLyN2bS1zY29wZWRTbG90cw==&#34;&gt;https://cn.vuejs.org/v2/api/#vm-scopedSlots&lt;/span&gt;&lt;br /&gt;
  动态插槽名：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi52dWVqcy5vcmcvdjIvZ3VpZGUvY29tcG9uZW50cy1zbG90cy5odG1sIyVFNSU4QSVBOCVFNiU4MCU4MSVFNiU4RiU5MiVFNiVBNyVCRCVFNSU5MCU4RA==&#34;&gt;https://cn.vuejs.org/v2/guide/components-slots.html#%E5%8A%A8%E6%80%81%E6%8F%92%E6%A7%BD%E5%90%8D&lt;/span&gt;&lt;/p&gt;
 </content>
-        <category term="Vue" scheme="https://oocii.com/categories/Vue/" />
-        <category term="slot" scheme="https://oocii.com/categories/Vue/slot/" />
-        <category term="vue" scheme="https://oocii.com/tags/vue/" />
-        <category term="slot" scheme="https://oocii.com/tags/slot/" />
-        <category term="scopedSlots" scheme="https://oocii.com/tags/scopedSlots/" />
-        <category term="dynamicSlotName" scheme="https://oocii.com/tags/dynamicSlotName/" />
+        <category term="Vue" scheme="https://www.oocii.com/categories/Vue/" />
+        <category term="slot" scheme="https://www.oocii.com/categories/Vue/slot/" />
+        <category term="vue" scheme="https://www.oocii.com/tags/vue/" />
+        <category term="slot" scheme="https://www.oocii.com/tags/slot/" />
+        <category term="scopedSlots" scheme="https://www.oocii.com/tags/scopedSlots/" />
+        <category term="dynamicSlotName" scheme="https://www.oocii.com/tags/dynamicSlotName/" />
         <updated>2021-12-23T02:44:19.000Z</updated>
     </entry>
     <entry>
-        <id>https://oocii.com/default/flex%E5%B8%83%E5%B1%80%E5%AD%90%E5%85%83%E7%B4%A0%E6%92%91%E5%BC%80%E7%88%B6%E5%85%83%E7%B4%A0%E9%97%AE%E9%A2%98/</id>
+        <id>https://www.oocii.com/default/flex%E5%B8%83%E5%B1%80%E5%AD%90%E5%85%83%E7%B4%A0%E6%92%91%E5%BC%80%E7%88%B6%E5%85%83%E7%B4%A0%E9%97%AE%E9%A2%98/</id>
         <title>flex布局子元素撑开父元素问题</title>
-        <link rel="alternate" href="https://oocii.com/default/flex%E5%B8%83%E5%B1%80%E5%AD%90%E5%85%83%E7%B4%A0%E6%92%91%E5%BC%80%E7%88%B6%E5%85%83%E7%B4%A0%E9%97%AE%E9%A2%98/"/>
+        <link rel="alternate" href="https://www.oocii.com/default/flex%E5%B8%83%E5%B1%80%E5%AD%90%E5%85%83%E7%B4%A0%E6%92%91%E5%BC%80%E7%88%B6%E5%85%83%E7%B4%A0%E9%97%AE%E9%A2%98/"/>
         <content type="html">&lt;p&gt;用 flex 布局时遇到一个问题，原本想让 flex 子元素平均宽度显示，却因为子元素里面的内容宽度把其中一个子元素宽度撑开导致宽度不一致。先看代码：&lt;/p&gt;
 &lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.flex-box&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 500px&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; flex&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 10px&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;border&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 2px solid orange&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.flex-box div&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;flex&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;border&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 1px solid black&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.flex-box div p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;white-space&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; nowrap&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;flex-box&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;普通文本&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;超长不换行的文本，超长不换行的文本，超长不换行的文本，超长不换行的文本，超长不换行的文本。&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;期望得到以下的效果：&lt;br /&gt;
 &lt;img data-src=&#34;/images/default/flex%E5%B8%83%E5%B1%80%E5%AD%90%E5%85%83%E7%B4%A0%E6%92%91%E5%BC%80%E7%88%B6%E5%85%83%E7%B4%A0%E9%97%AE%E9%A2%98/p1.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
@@ -775,10 +775,10 @@ To provide a more reasonable default minimum size for flex items, the used value
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudzMub3JnL1RSL2Nzcy1mbGV4Ym94LTEvI21pbi1zaXplLWF1dG8=&#34;&gt;https://www.w3.org/TR/css-flexbox-1/#min-size-auto&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9qdWVqaW4uY24vcG9zdC82OTc0MzU2NjgyNTc0OTIxNzY1I2NvbW1lbnQ=&#34;&gt;https://juejin.cn/post/6974356682574921765#comment&lt;/span&gt;&lt;/p&gt;
 </content>
-        <category term="CSS" scheme="https://oocii.com/categories/CSS/" />
-        <category term="CSS" scheme="https://oocii.com/tags/CSS/" />
-        <category term="flex" scheme="https://oocii.com/tags/flex/" />
-        <category term="flex-shrink" scheme="https://oocii.com/tags/flex-shrink/" />
+        <category term="CSS" scheme="https://www.oocii.com/categories/CSS/" />
+        <category term="CSS" scheme="https://www.oocii.com/tags/CSS/" />
+        <category term="flex" scheme="https://www.oocii.com/tags/flex/" />
+        <category term="flex-shrink" scheme="https://www.oocii.com/tags/flex-shrink/" />
         <updated>2017-05-23T12:08:12.000Z</updated>
     </entry>
 </feed>
