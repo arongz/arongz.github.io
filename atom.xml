@@ -176,17 +176,6 @@ paragraph.children; // HTMLCollection: [HTMLElement]&lt;br /&gt;
         <updated>2022-01-10T06:32:30.000Z</updated>
     </entry>
     <entry>
-        <id>https://www.oocii.com/yuque/tag2/</id>
-        <title>tag2.</title>
-        <link rel="alternate" href="https://www.oocii.com/yuque/tag2/"/>
-        <content type="html">&lt;p&gt;gxvxcvxcvxcvx&lt;/p&gt;
-</content>
-        <category term="testtag" scheme="https://www.oocii.com/categories/testtag/" />
-        <category term="tags1" scheme="https://www.oocii.com/tags/tags1/" />
-        <category term="tags2" scheme="https://www.oocii.com/tags/tags2/" />
-        <updated>2022-01-06T11:04:58.000Z</updated>
-    </entry>
-    <entry>
         <id>https://www.oocii.com/yuque/Tags..9/</id>
         <title>Tags..9</title>
         <link rel="alternate" href="https://www.oocii.com/yuque/Tags..9/"/>
@@ -993,6 +982,25 @@ Chrome&lt;/p&gt;
         <category term="scopedSlots" scheme="https://www.oocii.com/tags/scopedSlots/" />
         <category term="dynamicSlotName" scheme="https://www.oocii.com/tags/dynamicSlotName/" />
         <updated>2021-12-23T02:44:19.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.oocii.com/yuque/codepen%20snipet/</id>
+        <title>codepen snipet</title>
+        <link rel="alternate" href="https://www.oocii.com/yuque/codepen%20snipet/"/>
+        <content type="html">&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;&amp;lt;p class=&amp;quot;codepen&amp;quot; data-height=&amp;quot;300&amp;quot; data-default-tab=&amp;quot;html,result&amp;quot; data-slug-hash=&amp;quot;jOGRJqe&amp;quot; data-user=&amp;quot;arongz&amp;quot; style=&amp;quot;height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;span&amp;gt;See the Pen &amp;lt;a href=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb2RlcGVuLmlvL2Fyb25nei9wZW4vak9HUkpxZSUyMiUzRQ==&#34;&gt;https://codepen.io/arongz/pen/jOGRJqe&amp;quot;&amp;gt;&lt;/span&gt;&lt;br /&gt;
+hello world&amp;lt;/a&amp;gt; by  Arz (&amp;lt;a href=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb2RlcGVuLmlvL2Fyb25neiUyMiUzRUBhcm9uZ3olM0MvYSUzRQ==&#34;&gt;https://codepen.io/arongz&amp;quot;&amp;gt;@arongz&amp;lt;/a&amp;gt;)&lt;/span&gt;)&lt;br /&gt;
+on &amp;lt;a href=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb2RlcGVuLmlvJTIyJTNFQ29kZVBlbiUzQy9hJTNFLiUzQy9zcGFuJTNF&#34;&gt;https://codepen.io&amp;quot;&amp;gt;CodePen&amp;lt;/a&amp;gt;.&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br /&gt;
+&amp;lt;/p&amp;gt;&lt;br /&gt;
+&amp;lt;script async src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jcHdlYmFzc2V0cy5jb2RlcGVuLmlvL2Fzc2V0cy9lbWJlZC9laS5qcyUyMiUzRSUzQy9zY3JpcHQlM0U=&#34;&gt;https://cpwebassets.codepen.io/assets/embed/ei.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br /&gt;
+​&lt;/p&gt;
+</content>
+        <category term="CodePen" scheme="https://www.oocii.com/categories/CodePen/" />
+        <category term="codepen" scheme="https://www.oocii.com/tags/codepen/" />
+        <category term="code" scheme="https://www.oocii.com/tags/code/" />
+        <category term="snippet" scheme="https://www.oocii.com/tags/snippet/" />
+        <updated>2019-08-01T12:29:10.000Z</updated>
     </entry>
     <entry>
         <id>https://www.oocii.com/default/flex%E5%B8%83%E5%B1%80%E5%AD%90%E5%85%83%E7%B4%A0%E6%92%91%E5%BC%80%E7%88%B6%E5%85%83%E7%B4%A0%E9%97%AE%E9%A2%98/</id>
