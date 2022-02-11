@@ -1045,6 +1045,35 @@ To provide a more reasonable default minimum size for flex items, the used value
  ]]></description>
         </item>
         <item>
+            <guid isPermalink="true">https://www.oocii.com/yuque/%E6%80%8E%E4%B9%88%E8%A7%A3%E5%86%B3%20Git%20%E7%9A%84%20!fatal!%20refusing%20to%20merge%20unrelated%20histories/</guid>
+            <title>怎么解决 Git 的 fatal: refusing to merge unrelated histories</title>
+            <link>https://www.oocii.com/yuque/%E6%80%8E%E4%B9%88%E8%A7%A3%E5%86%B3%20Git%20%E7%9A%84%20!fatal!%20refusing%20to%20merge%20unrelated%20histories/</link>
+            <category term="Git" scheme="https://www.oocii.com/categories/Git/" />
+            <category term="git" scheme="https://www.oocii.com/tags/git/" />
+            <category term="fatal" scheme="https://www.oocii.com/tags/fatal/" />
+            <pubDate>Sun, 14 May 2017 20:50:33 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;使用 Git 一段时间后，你会注意到有很多难以修复的错误。 &amp;quot;fatal: refusing to merge unrelated histories&amp;quot;。与许多其他错误不同，此问题有一个解决方案，你可以在遇到它时重复使用。&lt;br /&gt;
+先说解决方法：&lt;br /&gt;
+&lt;strong&gt;git pull origin master --allow-unrelated-histories&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;但为什么会发生错误呢&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#但为什么会发生错误呢&#34;&gt;#&lt;/a&gt; 但为什么会发生错误呢？&lt;/h2&gt;
+&lt;p&gt;Git 提示 &amp;quot;fatal: refusing to merge unrelated histories&amp;quot; 是当两个不相关的项目合并到一个分支中时会发生错误。出现此错误是因为每个项目都有自己的提交和标签历史。这两种历史将互不相容。&lt;/p&gt;
+&lt;p&gt;出现此错误的主要情况有两种。&lt;/p&gt;
+&lt;p&gt;当你创建一个新的存储库、进行一些提交并尝试从另一个远程存储库中提取时，可能会发生此错误。将显示此错误，因为你正在使用的本地存储库将具有与你尝试检索的项目不同的历史记录。&lt;/p&gt;
+&lt;p&gt;如果项目中的 .git 目录已被删除或损坏，你可能会遇到此错误。在这种情况下，Git 命令行可能无法读取你本地项目的历史记录。&lt;/p&gt;
+&lt;p&gt;当你尝试将数据推送到远程存储库或从远程存储库提取数据时，将发生此错误。这是因为 Git 不知道远程存储库是否与你当前的存储库兼容。&lt;/p&gt;
+&lt;h2 id=&#34;如何解决-fatal-refusing-to-merge-unrelated-histories&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何解决-fatal-refusing-to-merge-unrelated-histories&#34;&gt;#&lt;/a&gt; 如何解决 &amp;quot;fatal: refusing to merge unrelated histories&amp;quot; ?&lt;/h2&gt;
+&lt;p&gt;要解决此问题，你可以在 --allow-unrelated-histories 从存储库中提取数据时使用该标志：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jYXJlZXJrYXJtYS5jb20vYmxvZy9lcnJvci1naXQtcHVsbC1ub3QtcG9zc2libGUv&#34;&gt;» 更多： Git 错误：无法拉取...&lt;/span&gt;&lt;br /&gt;
+git pull origin master --allow-unrelated-histories&lt;/p&gt;
+&lt;p&gt;就可以将远程 master 分支拉取合并到本地分支。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jYXJlZXJrYXJtYS5jb20vYmxvZy9naXQtY2xvbmU=&#34;&gt;或者，你可以使用 git clone 克隆&lt;/span&gt;远程存储库的新版本并重新开始。但是通常不需要这样做。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2dpdC9naXQvYmxvYi9tYXN0ZXIvRG9jdW1lbnRhdGlvbi9SZWxOb3Rlcy8yLjkuMC50eHQjTDU4LUw2OA==&#34;&gt;你可以在官方 Git 文档&lt;/span&gt;中阅读更多关于 --allow-unrelated-histories 标志的信息。&lt;/p&gt;
+&lt;h2 id=&#34;结论&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#结论&#34;&gt;#&lt;/a&gt; 结论&lt;/h2&gt;
+&lt;p&gt;&amp;quot;fatal: refusing to merge unrelated histories&amp;quot; 发生在 .git 目录不可读或尝试从具有自己的提交历史的存储库中提取数据时。这个错误告诉你，你正在尝试将两个不相关的项目合并到同一个工作树。&lt;/p&gt;
+&lt;p&gt;你可以很容易使用 --allow-unrelated-histories 标志来解决此错误！&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://www.oocii.com/default/Blob%20%E5%92%8C%20ArrayBuffer%20%E4%B9%8B%E9%97%B4%E8%BD%AC%E6%8D%A2/</guid>
             <title>Blob 和 ArrayBuffer 之间转换</title>
             <link>https://www.oocii.com/default/Blob%20%E5%92%8C%20ArrayBuffer%20%E4%B9%8B%E9%97%B4%E8%BD%AC%E6%8D%A2/</link>
