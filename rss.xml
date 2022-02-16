@@ -1346,8 +1346,8 @@ UML 对象图显示系统中的对象实例在特定状态下如何相互交互�
 &lt;li&gt;当元素在视口内时加载和&lt;strong&gt;自动播放视频或动画。&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;** 浏览器支持：** 目前，firefox 和 chrome 支持 Intersection 观察器，但我们可以为旧浏览器找到 polyfill&lt;br /&gt;
-&lt;img data-src=&#34;https://cdn.nlark.com/yuque/0/2022/png/360567/1644920521948-90175640-8190-4f51-a190-a20ea29ff5b9.png#clientId=ufade1ecc-037d-4&amp;amp;crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;from=paste&amp;amp;id=ud8dc3fe9&amp;amp;margin=%5Bobject%20Object%5D&amp;amp;name=image.png&amp;amp;originHeight=328&amp;amp;originWidth=700&amp;amp;originalType=url%E2%88%B6=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;size=101014&amp;amp;status=done&amp;amp;style=none&amp;amp;taskId=u930b45ac-d47c-4ba4-9346-bd9becedb65&amp;amp;title=&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
- 使用 IntersectionObserver api 主要需要三个步骤&lt;br /&gt;
+&lt;img data-src=&#34;https://miro.medium.com/max/700/1*rs0jomrks9F2nyrZtLt--Q.png#crop=0&amp;amp;crop=0&amp;amp;crop=1&amp;amp;crop=1&amp;amp;id=QYLY3&amp;amp;originHeight=328&amp;amp;originWidth=700&amp;amp;originalType=binary%E2%88%B6=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;status=done&amp;amp;style=none&amp;amp;title=&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;使用 IntersectionObserver api 主要需要三个步骤&lt;br /&gt;
  a) 定义回调处理程序&lt;br /&gt;
  b) 创建观察者&lt;br /&gt;
  c) 定义要观察的目标对象&lt;/p&gt;
