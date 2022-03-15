@@ -406,7 +406,8 @@ flow-root 关键字的意义是，创建的内容本质上类似于一个新的�
             <link>https://www.oocii.com/yuque/Web%20APIs/</link>
             <pubDate>Sat, 25 Dec 2021 18:00:56 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/API&#34;&gt;&lt;br /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;/a&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://cdn.nlark.com/yuque/0/2021/jpeg/360567/1640427708232-3835e7c3-83c1-4947-b45d-ada31582c0a8.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;在使用-javascript-编写-web-代码时有许多-web-api-可供调用-下面是开发-web-应用程序或网站时可能使用的所有-api-和接口对象类型的列表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在使用-javascript-编写-web-代码时有许多-web-api-可供调用-下面是开发-web-应用程序或网站时可能使用的所有-api-和接口对象类型的列表&#34;&gt;#&lt;/a&gt; 在使用 JavaScript 编写 Web 代码时，有许多 Web API 可供调用。下面是开发 Web 应用程序或网站时可能使用的所有 API 和接口（对象类型）的列表。&lt;/h2&gt;
 &lt;p&gt;Web API 主要用于 JavaScript，但也可能有例外。&lt;/p&gt;
 &lt;h2 id=&#34;规范&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#规范&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvQVBJIyVFOCVBNyU4NCVFOCU4QyU4Mw==&#34;&gt;规范&lt;/span&gt;&lt;/h2&gt;
