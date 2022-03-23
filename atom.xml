@@ -2360,8 +2360,7 @@ UML 对象图显示系统中的对象实例在特定状态下如何相互交互�
 &lt;h4 id=&#34;时序图示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时序图示例&#34;&gt;#&lt;/a&gt; 时序图示例&lt;/h4&gt;
 &lt;p&gt;有关时序图的更多详细信息，请阅读文章&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudmlzdWFsLXBhcmFkaWdtLmNvbS9ndWlkZS91bWwtdW5pZmllZC1tb2RlbGluZy1sYW5ndWFnZS93aGF0LWlzLXRpbWluZy1kaWFncmFtLw==&#34;&gt;什么是时序图？&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&#34;学习-uml-绘制-uml&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习-uml-绘制-uml&#34;&gt;#&lt;/a&gt; 学习 UML。绘制 UML。&lt;/h1&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudmlzdWFsLXBhcmFkaWdtLmNvbS9kb3dubG9hZC9jb21tdW5pdHkuanNw&#34;&gt;免费下载&lt;/span&gt;&lt;br /&gt;
-获取 Visual Paradigm 社区版，这是一个免费的 UML 工具，可以帮助您更快、更有效地学习 UML。Visual Paradigm Community Edition 支持所有 UML 图类型。它的 UML 建模器屡获殊荣，易于使用且直观。&lt;/p&gt;
+&lt;p&gt;获取 Visual Paradigm 社区版，这是一个免费的 UML 工具，可以帮助您更快、更有效地学习 UML。Visual Paradigm Community Edition 支持所有 UML 图类型。它的 UML 建模器屡获殊荣，易于使用且直观。&lt;/p&gt;
 &lt;h2 id=&#34;uml-词汇表和术语&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uml-词汇表和术语&#34;&gt;#&lt;/a&gt; UML 词汇表和术语&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;抽象类&lt;/strong&gt; - 永远不会被实例化的类。这个类的实例永远不会存在。&lt;/li&gt;
